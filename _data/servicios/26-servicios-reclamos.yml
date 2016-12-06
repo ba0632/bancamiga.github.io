@@ -1,0 +1,27 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Unidad de Atención al Cliente'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Gestión de Reclamos y Requerimientos'
+
+
+text-title: "Gestión de Reclamos y Requerimientos"
+list-about:
+  - item-description: Dirígete a la Agencia de tu preferencia.
+  - item-description: Informa al Asesor de Atención al Cliente que deseas formalizar un reclamo.
+  - item-description: Solicita información al respecto de  los recaudos y requisitos que debes cumplir y consignar para formalizar  el reclamo.
+  - item-description: "Guarda la fotocopia de la Solicitud de Atención de Reclamos, como soporte y registro del requerimiento ante la institución Bancamiga. <br><br>"
+  - title: Canales de Contacto
+    item-description: Cuentas con el servicio telefónico para efectuar tus consultas a través del 0501 TUBANCA (8822622), (0212) 8220701 o (0212) 8220702 en horario corrido de Lunes a Domingo las 24 horas del día. Además puedes realizar tus transacciones de una forma cómoda, rápida y segura, conectándose a nuestra página web www.bancamiga.com mediante nuestro servicio Bancamiga en línea.
+image-about:
+  - image: /images/aboutsliders/aboutme/sliders/foto1.png
+    description: Images-1
+  - image: /images/aboutsliders/aboutme/sliders/foto2.png
+    description: Images-2
+  - image: /images/aboutsliders/aboutme/sliders/foto3.png
+    description: Images-3
+
+next: 'container-about'

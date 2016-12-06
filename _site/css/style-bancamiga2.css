@@ -1,0 +1,505 @@
+
+/*Iconos alineados a la derecha*/
+@media (min-width: 992px) {
+    	.navbar-nav {
+    		float: right;
+        margin-left: 7em;
+        /*margin-left: 24px*/
+    	}
+
+      /*possion horizontal de elementos del menu*/
+    	.navbar-nav > li > a {
+        padding: 0px 2.5em;
+    	}
+
+    	.sticky-menu.fixed .navbar-nav > li > a {
+        	padding-top: 0px;
+        	padding-bottom: 0px;
+    	}
+
+    /*logo de Bancamiga*/
+    .logo{
+      height: 1.3em;
+      margin-bottom: 0px;
+    }
+
+    /*elemtos del menu*/
+    @media (min-width: 1280px){
+      .container {
+        width: 1197px;
+      }
+    }
+
+    }
+    /* uppercase none */
+    .navbar-nav > li > a, .navbar-nav li a {
+        text-transform: none;
+    }
+
+    .buttonRegister{
+      background-color: #004b91;
+      color: #ffffff;
+    }
+
+    .buttonRegister:hover{
+      background-color: #00386d;
+      color: #ffffff;
+    }
+
+    .buttonRegister:focus{
+      background-color: #004b91;
+      color: #ffffff;
+    }
+
+    .buttonBancamiga{
+      background-image: url('http://blog.synergy-gb.com/pagina-comercial-bancamiga/images/boton-1.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: transparent;
+    }
+
+    .buttonBancamiga:hover{
+      background-image: url('http://blog.synergy-gb.com/pagina-comercial-bancamiga/images/boton-1-2.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: transparent;
+    }
+
+    .buttonBamiga{
+      background-image: url('http://blog.synergy-gb.com/pagina-comercial-bancamiga/images/boton-2.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: transparent;
+    }
+
+    .buttonBamiga:hover{
+      background-image: url('http://blog.synergy-gb.com/pagina-comercial-bancamiga/images/boton-2-2.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: transparent;
+    }
+
+    .sticky-menu.fixed .navbar-btn, .sticky-menu.fixed .navbar-toggle, .sticky-menu.fixed .btn-toggle{
+      width: 37px;
+      height: 37px;
+    }
+
+    .colorMenu{
+    	background-color: rgba(0,0,0,0.58) !important;
+    }
+
+    /*after menú*/
+    .sticky-menu.fixed .navbar-white.navbar-transparent, .navbar-white.navbar-transparent .sticky-menu.fixed, .sticky-menu.fixed .navbar-white.navbar-transparent .navbar-collapse.collapse-row, .navbar-white.navbar-transparent .sticky-menu.fixed .navbar-collapse.collapse-row {
+        background-color:rgba(255,255,255,0.3) !important;
+        border-color: #3e3e3e;
+    }
+
+    /*Border-bottom del menú*/
+    .navbar-white.navbar-transparent {
+        border:0px;
+    }
+
+    .navbar-top {
+        background-color: rgba(255,255,255,0.5);
+        border: 0px;
+    }
+    /*Border left del menú*/
+    .navbar-white .navbar-brand {
+        color: #505050;
+        border: 0px;
+    }
+
+    /*fondo del menú*/
+    .navbar-transparent {
+        background-color: rgba(255, 255, 255, 0.32) !important;
+    }
+
+    /*textos del revslider*/
+
+    .tp-caption.rev-title {
+    	color:#ffffff;
+    }
+
+    .tp-caption.rev-subtitle {
+    	color:#ffffff;
+    }
+
+    .tp-caption.rev-text {
+    		color:#ffffff;
+    }
+    /*final textos del revslider*/
+
+    /*botón del revlisder*/
+
+    .btn.btn-border.btn-white {
+        color: #051E31;
+        background: transparent;
+        border-color: white;
+    }
+
+    /*fondo del header index3*/
+    .backgroundIndex3{
+      background-color: #051E31 !important
+    }
+
+    /*revslider-index12*/
+    .kwicks li#panel-1 {
+        background-image: url('../images/homesliders/index12/foto1.jpg')!important;
+    }
+
+    .kwicks li#panel-2 {
+        background-image: url('../images/homesliders/index12/foto2.jpg')!important;
+    }
+
+    .kwicks li#panel-3 {
+        background-image: url('../images/homesliders/index12/foto3.jpg')!important;
+    }
+
+    .kwicks li#panel-4 {
+        background-image: url('../images/homesliders/index12/foto4.jpg')!important;
+    }
+
+    /* subrayado del titulo */
+    hr {
+        margin-top: 0.3em;
+        margin-bottom: 0.5em;
+        border: 0;
+        border-top: 1px solid #fff;
+    }
+    /* tamaño de titulo del 404 */
+    .error-title {
+    font-size: 102px;
+    margin-bottom: 32px
+    }
+    .error-subtitle {
+      font-size: 22px;
+      margin-bottom: 32px
+    }
+}
+
+/*backgroun hover services*/
+.service-hover-bg:hover {
+    background-color: #5389d7 !important
+}
+
+/* padding-bottom de lista de servicios */
+@media (min-width: 768px){
+	.service-group .service {
+	    margin-bottom: 20px !important;
+	}
+	.service-group .service:before {
+    bottom: -10px;
+	}
+/*Elementos del menu*/
+  .navbar-white.navbar-transparent .navbar-text, .navbar-white.navbar-transparent .navbar-nav > li > a {
+      color: #ffffff;
+  }
+
+  .navbar-white.navbar-transparent .navbar-text, .navbar-white.navbar-transparent .navbar-nav > li > a:hover {
+      color: #62A830 !important;
+  }
+
+  .navbar-brand {
+    /*position top del logo en header*/
+    height: 90px;
+    padding: 26px 15px 28px;
+    font-size: 36px;
+  }
+
+
+}
+
+/* Espacio entre noticias y callOut*/
+.magazine-top-container.larger {
+    margin-bottom: 20px;
+}
+
+/* callOut con fondo de pantalla */
+.callOutHome{
+	background-image: url('../images/callout-bancamiga.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* color del texto callOut */
+.callout-desc {
+  color: #fff !important;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+/* color del titulo callOut */
+.callout-title {
+    margin-bottom: 2px;
+    color: #fff;
+}
+
+
+/* Espacio entre callout y el footer */
+.callout {
+	margin-bottom: 20px;
+}
+/* estilo de texto del footer */
+
+#footer .widget h4{
+		text-transform: none;
+	}
+
+.social-icon {
+	/* tamaño de los iconos de redes sociales*/
+	font-size: 30px;
+}
+
+/* tamaño logos aliados*/
+.logoFooter{
+	height: 1.5em;
+}
+
+/* footer de bancamiga*/
+.footer-inverse #footer-bottom{
+	background-color: #5389d7;
+	color: white !important;
+}
+
+#footer.footer-inverse a {
+    color: #fff;
+    font-weight: 700;
+}
+
+#footer.footer-inverse a:hover {
+    color: #004a90;
+    font-weight: 700;
+}
+
+@media (min-width: 992px){
+	.col-md-push-6 {
+	    left: 48%;
+	}
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #cccccc;
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    color: #fff;
+		font-weight: 700;
+    background-color: #666666 !important;
+    border-color: transparent;
+}
+
+.btn-primary:active, .btn-primary:focus{
+	background-color: #cccccc;
+	border-color: transparent;
+
+}
+
+/*text nuestra historia*/
+.text-about{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 27px;
+    color: #666666;
+}
+
+/*content tabs*/
+.tab-content>.active {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    min-height: 17.5em;
+    background-color: rgba(154, 154, 154, 0.15);
+}
+
+/*espacio entre tabs y content-tabs*/
+.nav-tabs, .nav-pills {
+    margin-bottom: 10px;
+}
+
+/*buttons category*/
+.sidebar .tagcloud a {
+    display: block;
+    float: left;
+    font-size: 14px;
+    padding: 4px 13px;
+    background-color: transparent;
+    border: 1px solid #62a830 !important;
+    color: #62a830;
+    margin: 0 7px 7px 0;
+    border-radius: 4px;
+    width: 8em;
+    height: 2.5em;
+    text-align: center;
+}
+
+/*contenedor de header de noticias*/
+.greenContainer {
+	background-color: #62A830;
+	color:#fff
+}
+
+/*contenedor de header de noticias*/
+.breadcrumb > li > a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.breadcrumb > li > a:hover {
+    color: #cccccc !important;
+    font-weight: 700;
+}
+
+.breadcrumb > .active {
+    color: #cccccc !important;
+}
+
+@media (min-width: 768px){
+	.service-group .service:before, .service-group .service:after {
+	   background-color: transparent;;
+	}
+}
+
+/*ffondo lista de agencias*/
+.whitebg{
+	background-color: #ffffff !important
+}
+
+#portfolio-item-container .portfolio-item.push {
+    background-color: #ffffff !important;
+}
+/*fin de fondo lista de agencias*/
+
+/*imagen de lista de noticias*/
+.imagenLista {
+	display: block !important;
+	width: 90% !important;
+	height: 30em !important;
+	margin: auto;
+}
+
+.textLocation{
+	font-size: 11px !important;
+	font-weight: 700 !important;
+}
+
+@media (min-width: 768px){
+	.entry-simple:hover {
+	    background-color: #337ab7 !important;
+	    border-bottom-color: #62a830 !important;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.entry-simple:focus {
+	    background-color: #337ab7 !important;
+	    border-bottom-color: #62a830 !important;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+}
+
+.tag a {
+		display: -webkit-inline-box !important;
+    float: none !important;
+    font-size: 13px;
+    padding: 3px 10px;
+    background-color: #eee;
+    color: #7a7a7a;
+    margin: 0 7px 7px 0;
+    border-radius: 3px;
+    transition: background 0.4s ease, color 0.05s;
+    -webkit-transition: background 0.4s ease, color 0.05s;
+}
+
+/*fondo del contenido del header*/
+.modal-header, .modal-footer {
+  background-color: transparent;
+}
+
+/*Texto del modal*/
+.Importante{
+  color: #004b91;
+  font-size: 18px
+}
+
+/*margin auto*/
+.margin-auto{
+  margin:auto;
+}
+
+/*espacio interno del texto*/
+.modal-body {
+    padding: 0px 4em !important;
+    font-size: 18px;
+}
+
+/*header description color*/
+.page-header-desc {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.entry-simple:hover .entry-title a,
+.entry-simple:hover a {
+  color:#fff
+}
+
+.color-fuente-categorias{
+  color:black
+}
+
+.color-fuente-categorias:hover{
+  color:#fff
+}
+
+.noBorder{
+  background-color: transparent;
+  border:none;
+ }
+
+.segmentos{
+  height: 10em;
+  text-align: center;
+}
+
+.segmentos:hover{
+  height: 10em;
+  background-color: rgba(0,75,145,0.18);
+}
+
+.titleDescription{
+  text-align: center;
+  font-style: italic;
+}
+
+/*texto de los botones del callout*/
+.btn.btn-border.btn-dark {
+    color: #fff !important;
+    font-size: 20px !important;
+}
+
+.navbar-transparent.navbar-white .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+}
+
+.navbar-white .navbar-nav .open > .dropdown-toggle, .navbar-white .navbar-nav .open > .dropdown-toggle:hover, .navbar-white .navbar-nav .open > .dropdown-toggle:focus {
+    background-color: rgba(0,0,0,0);
+}
+
+.navbar-white .navbar-nav .open .dropdown-menu {
+    background-color: rgba(0,0,0,0.26);
+}
+
+.verde{
+  color: #64a70b
+}
+
+/*buscador*/
+.search{
+    padding: 5px;
+    font-size: 20px;
+    list-style-type: initial;
+  }

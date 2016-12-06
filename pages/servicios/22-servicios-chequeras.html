@@ -1,0 +1,33 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+permalink: /chequeras/
+---
+
+
+{%
+    include index-bancamiga/g-static-img.html
+    image=site.data.servicios.22-servicios-chequeras.image
+    data-title=site.data.servicios.22-servicios-chequeras.data-title
+    data-image=site.data.servicios.22-servicios-chequeras.data-image
+    data-x-title=site.data.servicios.22-servicios-chequeras.data-x-title
+    data-y-title=site.data.servicios.22-servicios-chequeras.data-y-title
+    title=site.data.servicios.22-servicios-chequeras.title
+    data-x-subtitle=site.data.servicios.22-servicios-chequeras.data-x-subtitle
+    data-y-subtitle=site.data.servicios.22-servicios-chequeras.data-y-subtitle
+    subtitle=site.data.servicios.22-servicios-chequeras.subtitle
+    next=site.data.servicios.22-servicios-chequeras.next
+%}
+  <div class="mb40"></div><!-- space -->
+  {% include index-bancamiga/i01-container-about.html
+    title-interna=site.data.servicios.22-servicios-chequeras.text-title
+    description-interna=site.data.servicios.22-servicios-chequeras.text-about
+    list-images=site.data.servicios.22-servicios-chequeras.image-about
+    %}
+  {% include index-bancamiga/i02-container-tabs.html
+      list-tabs=site.data.servicios.22-servicios-chequeras.tabs
+  %}
+  <div class="mb10"></div><!-- space -->
+  {% include index-bancamiga/g-menu-links.html %}
+  <div class="mb10"></div><!-- space -->

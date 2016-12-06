@@ -1,0 +1,87 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Cheques de Gerencia'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Porque tu seguridad nos importa,<br>a continuación te brindamos algunas recomendaciones de seguridad<br>según los productos y servicios que ofrecemos actualmente'
+
+
+text-title: "Sobre uso correcto del sitio web de Bancamiga y el servicio Bancamiga en Línea."
+list-about:
+  - item-description: A través de Bancamiga en línea puedes realizar operaciones tales como consulta de saldos e información de tus cuentas de ahorro, depósitos a plazo fijo y operaciones de crédito, pago de cuotas de crédito, transferencias entre cuentas propias y a terceros dentro Bancamiga y  hacia otros Bancos, entre otros.
+  - item-description: Con Bancamiga en línea tienes la comodidad de acceder al banco desde tu casa o negocio, para realizar las operaciones anteriormente mencionadas con sólo una conexión a internet. Pero como todo servicio electrónico, este servicio no se  encuentra ajeno a los riesgos propios de operar en una red de comunicación abierta como es Internet.
+  - item-description: Ninguna de las instituciones que han incorporado este tipo de servicios se encuentra exenta a los ataques que tienen como objetivo acceder a las cuentas de los clientes para concretar un fraude.
+  - item-description: Si bien las operaciones que realizamos en Internet pueden verse afectadas por el malware (software malicioso) en general, hay una metodología desarrollada por los estafadores informáticos, específicamente para operaciones bancarias y financieras.<br><br>
+  - title: Tu seguridad ante todo
+    item-description: Confidencialidad de los datos.
+  - item-description: "Acceso a la información sólo por la persona o personas previamente autorizadas, gracias a:"
+    options:
+      - sub-items: "<b>Encriptación de Datos:</b> Sistema de encriptación a través de un certificado digital emitido por Verisign Inc. que codifica la información intercambiada, garantizando tu privacidad. Adicionalmente, este certificado también permite verificar que el sitio al cual te conectas es Bancamiga Banco Microfinanciero, C.A."
+      - sub-items: "<b>Encriptación de Datos:</b> Protegemos el acceso al sistema, gracias al reconocimiento y personalización de todos nuestros clientes, mediante la solicitud de usuario y contraseña. Adicionalmente, el bloqueo de acceso se activa automáticamente ante repetidos errores de ingreso de clave de usuario y contraseña. Además, el servicio contabiliza el tiempo de conexión de sus usuarios. Esto significa que los que no hayan realizado ningún tipo de actividad en un tiempo prefijado, serán automáticamente desconectados de la sesión. Esta característica de seguridad, evita mantener el servicio activo cuando el usuario olvida desconectarse del mismo. <br><br>"
+  - title: Siempre toma en cuenta estas recomendaciones de seguridad
+    item-description: Bajo ninguna circunstancia, Bancamiga Banco Microfinanciero, C.A. solicitará tus claves secretas, números de cuenta u otra información confidencial por correo electrónico, teléfono celular o cualquier otro canal de información.
+  - item-description: Los links o vínculos contenidos en los correos electrónicos, pueden llevarte a un sitio web falso, aunque parezca verdadero, evita hacer clic sobre ellos. En caso que esto ocurra, te solicitamos no responder y contactarse con nosotros al Centro de Atención Bancamiga, llamando al 0501 tubanca (8822622).
+  - item-description: No utilices claves secretas fáciles de conocer, recordar o adivinar como fechas de nacimiento, direcciones u otros.
+  - item-description: Deberás elegir y renovar periódicamente una imagen personalizada, la cual será mostrada cada vez que desees acceder a nuestro servicio web Bancamiga en Línea.
+  - item-description: Si recibes correos electrónicos, mensajes de texto SMS o llamadas telefónicas sospechosas, haz caso omiso de las mismas y repórtalas, llamando al 0501 tubanca (8822622) o dirígete de inmediato a la agencia Bancamiga más cercana.
+  - item-description: Si recibes correos electrónicos, mensajes de texto SMS o llamadas telefónicas sospechosas, haz caso omiso de las mismas y repórtalas, llamando al 0501 tubanca (8822622) o dirígete de inmediato a la agencia Bancamiga más cercana.
+  - item-description: No divulgues tu contraseña de Banca en línea y cámbiala periódicamente para evitar que sea descubierta por personas fraudulentas.
+  - item-description: Ingresa siempre a www.bancamiga.com ingresando directamente la dirección en el navegador sin hacer uso de un buscador web comercial.
+  - item-description: Puedes verificar que estás conectado al servidor del Banco haciendo clic en el logo de Verisign.
+  - item-description: Cuando accedas a nuestra página web o al servicio de Bancamiga en Línea, hazlo desde tu computador personal y no desde equipos públicos o compartidos.
+  - item-description: Mantén protegido tu computador personal utilizando software anti-virus actualizado, adicional a otros software de protección contra amenazas informáticas.
+  - item-description: Recuerda que las claves secretas son de uso personal e intransferible y el uso adecuado es de tu total responsabilidad.
+  - item-description: Verifica al acceder a una página donde se registren datos confidenciales como accesos a Bancamiga o a cualquier transacción que implique claves o pines en forma digital que en la barra de direcciones, la dirección a la que ingresamos comience con https://. HTTPS es un protocolo de comunicación utilizado en sitios web seguros y que usa criptografía para transmitir los datos por un canal cifrado. Justamente la "s" después de "http" significa "seguro".
+  - item-description: Evita el SPAM ya que es el principal medio de distribución de cualquier mensaje que intente engañarte.
+  - item-description: Toma por regla general rechazar adjuntos y analizarlos con un antivirus aun cuando estés esperando recibirlos.
+  - item-description: Nunca hagas clic en un enlace incluido en un mensaje de correo. Siempre intenta ingresar manualmente a cualquier sitio web.
+  - item-description: "El correo electrónico es muy fácil de interceptar y de que caiga en manos equivocadas, por lo que jamás se debe enviar contraseñas, números de tarjetas de débito u otro tipo de información sensible a través de este medio. <br><br>"
+  - title: Seguridad en tu computadora
+    item-description: "La seguridad de tu computadora también es importante, ya que muchas veces es blanco de ataques externos que vulneran tu información personal. Por este motivo, Bancamiga te recomienda tener en cuenta las siguientes herramientas y prácticas para protegerla:"
+    options:
+      - sub-items: El Antivirus es una de las herramientas más importantes para proteger tu computadora. Todos los días un nuevo virus es creado y simultáneamente las empresas de software antivirus lanzan el “antídoto”. Por esto, es tan importante que tengas un Antivirus activo y actualizado.
+      - sub-items: Utilizar Firewall para prevenir el acceso no autorizado de terceros a la información de tu computadora. Tanto Windows XP como Vista ya cuentan con un Firewall propio y no es necesario instalar uno nuevo, solo debes asegurarte que esté activado.
+      - sub-items: "Actualizar el sistema operativo para ayudar a proteger tu computadora de vulnerabilidades, virus, gusanos y otras amenazas.<br><br>"
+  - title: "Técnicas de fraude electrónico más usuales y recomendaciones para evitar ser víctimas de éstas: </br></br>"
+    item-description: "<b>Phishing</b><br>"
+    options:
+      - sub-items: "Las técnicas de “phishing” tienen como objetivo engañar a los usuarios para conseguir datos personales como las claves de acceso a tus cuentas bancarias por Internet. Para obtener los datos, el estafador envía correos electrónicos (e-mail) falsos que parecen provenir de sitios web legítimos, como ser una institución financiera, y en el cual se notifica al usuario la necesidad de que confirme cierta información sobre tu cuenta. Para argumentar dicha necesidad, el mensaje alega todo tipo de excusas, modificaciones en el sistema de seguridad o avisos de cancelación de las cuentas y solicita confirmación de los datos en un corto plazo, personalización de cuentas, entre otros. <br> Para que estos mensajes parezcan aún más reales, el estafador suele incluir un vínculo que parece dirigir al sitio web legítimo, pero en realidad lleva a un sitio falso o incluso a una ventana emergente que tiene exactamente el mismo aspecto que el sitio web legítimo. <br> Una vez que el usuario está en el sitio falso, introduce información personal sin saber que se transmitirá la información directamente al estafador, quien la utilizará para tu propio beneficio (ejemplo: transferir el dinero de sus cuentas, realizar pagos, etc.) <br><br>"
+  - item-description: "<b>¿Cómo evitarlo?</b><br>"
+    options:
+      - sub-items: "Los links o vínculos contenidos en los correos electrónicos, pueden llevarte a un sitio web falso, aunque parezca verdadero. Evita hacer clic sobre ellos. En caso que esto ocurra, te solicitamos no responder y contactar con nosotros al Centro de Atención Bancamiga, llamando al 0501 tubanca (8822622)."
+      - sub-items: "Desconfía y no respondas todo mensaje que solicite datos confidenciales como ser nombres de usuario, contraseñas, número de cuentas y demás productos que mantienes con el banco. Es importante aclararte que Bancamiga Banco Microfinanciero, C.A. nunca te solicitará tal información por correo electrónico por tal motivo, abstente de contestar o seguir las instrucciones inscritas en él y comunícate inmediatamente con nosotros al Centro de Atención Bancamiga, llamando al 0501 tubanca (8822622) para denunciar el hecho."
+      - sub-items: "Cuando accedas a la web de Bancamiga verifica que la dirección web a la que está ingresado comience con HTTPS y si es posible también verifica la validez del certificado digital del Banco. (VERISIGN)"
+      - sub-items: "Luego de finalizar tus transacciones, cierra siempre tu sesión y recuerda que dejarla abierta es una puerta de entrada para que un tercero acceda a tu información o dinero. Posteriormente a esto, elimina archivos temporales y cookies.</br></br>"
+  - item-description: "<b>Fraudes por correo electrónico</b><br>"
+    options:
+      - sub-items: "Si recibes una oferta por correo electrónico con la promesa de conseguir grandes beneficios económicos a cambio de un esfuerzo mínimo de tu parte, seguramente es un engaño. Una vez involucrado en la estafa, te pedirán que pagues ciertas sumas de dinero para acelerar el proceso y nunca recibirás ni un centavo a cambio. Es probable que te pidan algún dinero por adelantado para cubrir gastos de naturaleza dudosa, como tasas de procesamiento o pagos para acelerar el proceso o que proporciones tu número de cuenta o algún otro tipo de información similar relativa a tus finanzas.<br><br>"
+  - item-description: "<b>¿Cómo evitarlo?</b><br>"
+    options:
+      - sub-items: "Desconfía y no respondas todo mensaje que solicite datos confidenciales como nombres de usuario, contraseñas, número de cuentas, entre otros datos. Es importante aclararte que Bancamiga Banco Microfinanciero, C.A. nunca te solicitará tal información por correo electrónico y por tal motivo, abstente de contestar o seguir las instrucciones inscritas en él y comunícate inmediatamente al Centro de Atención Bancamiga, llamando al 0501 tubanca (8822622) para denunciar el hecho.<br><br>"
+  - item-description: "<b>Software Espía</b><br>"
+    options:
+      - sub-items: "Software Espía o Spyware es el término general que se utiliza en referencia a aplicaciones de software que se instalan en forma automática y que llevan a cabo determinados tipos de tareas como, por ejemplo, promociones publicitarias, recopilación de información personal o modificación de la configuración en tu equipo sin tu consentimiento.<br><br>"
+      - sub-items: "El software espía o las aplicaciones no deseadas pueden llegar a tu computadora de varias formas, sin embargo lo más común es instalar el software disimuladamente durante la instalación de otro software que sí has solicitado como, por ejemplo, un programa de archivos compartidos de música o video.<br><br>"
+  - item-description: "<b>¿Cómo evitarlo?</b><br>"
+    options:
+      - sub-items: "Instala un software antivirus reconocido dado que los mismos incluyen herramientas para detectarlos."
+      - sub-items: "Descarga software únicamente de sitios de confianza."
+      - sub-items: "No confíes en los populares programas 'gratuitos' de archivos compartidos de música y video, y asegúrate de verificar perfectamente todo el software que incluyen."
+      - sub-items: "Nunca hagas clic en opciones como 'OK' o 'Acepto' para cerrar una ventana. Utiliza siempre la 'X' roja que se encuentra en la esquina de la ventana."
+
+
+
+
+
+
+image-about:
+  - image: /images/aboutsliders/aboutme/sliders/foto1.png
+    description: Images-1
+  - image: /images/aboutsliders/aboutme/sliders/foto2.png
+    description: Images-2
+  - image: /images/aboutsliders/aboutme/sliders/foto3.png
+    description: Images-3
+
+next: 'container-about'

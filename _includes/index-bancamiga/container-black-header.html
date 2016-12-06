@@ -1,0 +1,17 @@
+<div class="page-header greenContainer larger larger-desc">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="greenContainer" itemprop="name headline">{{ page.title }}</h1>
+                <p class="page-header-desc">{{ page.excerpt | truncate:100 }}</p>
+            </div><!-- End .col-md-6 -->
+            <div class="col-md-6">
+                <ol class="breadcrumb">
+                    <li><a href="{{ "/index.html" | prepend: site.baseurl | prepend: site.url }}">Home</a></li>
+                    <li><a href="{{ "/noticias/" | prepend: site.baseurl | prepend: site.url }}">Noticias</a></li>
+                    <li class="active">{{ page.title | truncate:40 }}</li>
+                </ol>
+            </div><!-- End .col-md-6 -->
+        </div><!-- End .row -->
+    </div><!-- End .container -->
+</div><!-- End .page-header -->

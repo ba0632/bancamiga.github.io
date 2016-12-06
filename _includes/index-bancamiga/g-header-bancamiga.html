@@ -1,0 +1,76 @@
+<header id="header" role="banner" class="sticky-menu">
+    <div class="collapse navbar-white special-for-mobile" id="header-search-form">
+        <div class="container">
+            <form class="navbar-form animated fadeInDown">
+              <div id="search-container">
+                <input id="search-input" name="search-input" class="form-control" placeholder="Buscar...">
+
+                <ul id="results-container"></ul>
+              </div>
+            </form>
+            <!-- Html Elements for Search -->
+
+        </div><!-- End .container -->
+    </div><!-- End #header-search-form -->
+    <nav class="navbar navbar-white navbar-transparent animated-dropdown btt-dropdown sizeHeader" role="navigation">
+        <div class="navbar-top clearfix">
+            <div class="container">
+                <div class="pull-left">
+                  <a href="{{ site.data.g-header.url-logo  | prepend: site.baseurl | prepend: site.url }}" class="navbar-brand text-uppercase" title="Bancamiga"><img class="img-responsive logo" src="{{ site.data.g-header.logo_pagina  | prepend: site.baseurl | prepend: site.url }}"></a>
+                </div><!-- End .pull-left -->
+                    <div class="pull-right hidden-sm hidden-xs">
+                      <button class="navbar-btn btn buttonBancamiga min-width" data-toggle="modal" data-target="#modal-text" type="button">
+                    </button>
+                    <a href="{{ site.data.g-header.button2-url }}">
+                      <button class="navbar-btn btn buttonBamiga min-width" style="margin-right: 1em;" type="button">
+                      </button>
+                    </a>
+                    <button type="button" class="navbar-btn btn-icon btn-circle navbar-right last  hidden-sm hidden-xs" data-toggle="collapse" data-target="#header-search-form">
+                      <i class="fa fa-search"></i>
+                    </button>
+                </div><!-- End .pull-right -->
+            </div><!-- End .container -->
+        </div><!-- End .navbar-top -->
+        <!-- aca empieza mi header-->
+        <div class="navbar-inner colorMenu">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle btn-circle pull-right collapsed" data-toggle="collapse" data-target="#main-navbar-container">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                    </button> <!-- Menu movil -->
+                    <!-- Logo de la página -->
+                    <button type="button" class="navbar-btn btn-icon btn-circle pull-right last visible-sm visible-xs" data-toggle="collapse" data-target="#header-search-form"><i class="fa fa-search"></i></button><!-- botón de buscar -->
+                </div><!-- End .navbar-header -->
+                <div class="collapse navbar-collapse" id="main-navbar-container">
+                    <ul class="nav navbar-nav pull-left">
+                        {% for item in site.data.g-header.option-menu %}
+                        <li class="dropdown">
+                            <a {% if item.href %}href="{{ item.href | prepend: site.baseurl | prepend: site.url }}"{% endif %} class="dropdown-toggle" role="menu" aria-expanded="true">
+                              <span class="{{ item.icon}}" style="margin:10px"></span>{{ item.name}}
+                            </a>
+                            {% if item.options %}
+                              <div class="dropdown-menu megamenu" role="menu">
+                                  <div class="container">
+                                      <div class="row">
+                                          <div class="col-sm-3">
+                                              <ul>
+                                                  {% for option in item.options %}
+                                                  <li>
+                                                    <a href="{{ option.url-option | prepend: site.baseurl | prepend: site.url }}">{{ option.name-option }}</a>
+                                                  </li>
+                                                  {% endfor %}
+                                              </ul>
+                                          </div><!-- End .col-sm-3 -->
+                                      </div><!-- End .row -->
+                                  </div><!-- End .container -->
+                              </div><!-- End .megamenu -->
+                            {% endif %}
+                          </li>
+                        {% endfor %}
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </div>
+    </nav>
+</header><!-- End #header -->

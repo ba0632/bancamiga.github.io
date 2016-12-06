@@ -1,0 +1,74 @@
+/*logo de Bancamiga*/
+.logo{
+  height: 0.8em;
+  margin-top:0.1em;
+  margin-bottom: 0px;
+}
+
+/*after menú*/
+.sticky-menu.fixed .navbar-white.navbar-transparent, .navbar-white.navbar-transparent .sticky-menu.fixed, .sticky-menu.fixed .navbar-white.navbar-transparent .navbar-collapse.collapse-row, .navbar-white.navbar-transparent .sticky-menu.fixed .navbar-collapse.collapse-row {
+    background-color: #051E31 !important;
+    border-color: #3e3e3e;
+}
+
+/*Border-bottom del menú*/
+.navbar-white.navbar-transparent {
+    border:0px;
+}
+
+/*Border left del menú*/
+.navbar-white .navbar-brand {
+    color: #505050;
+    border: 0px;
+}
+
+/*fondo del menú*/
+.navbar-transparent {
+    background-color: rgba(0,0,0,0.10) !important;
+}
+
+/*textos del revslider*/
+
+.tp-caption.rev-title {
+	color:#051E31;
+}
+
+
+.tp-caption.rev-subtitle {
+	color:#051E31;
+}
+
+.tp-caption.rev-text {
+		color:#051E31;
+}
+/*final textos del revslider*/
+
+/*botón del revlisder*/
+
+.btn.btn-border.btn-white {
+    color: #051E31;
+    background: transparent;
+    border-color: white;
+}
+
+/*fondo del header index3*/
+.backgroundIndex3{
+  background-color: #051E31 !important
+}
+
+/*revslider-index12*/
+.kwicks li#panel-1 {
+    background-image: url('../images/homesliders/index12/foto1.jpg')!important;
+}
+
+.kwicks li#panel-2 {
+    background-image: url('../images/homesliders/index12/foto2.jpg')!important;
+}
+
+.kwicks li#panel-3 {
+    background-image: url('../images/homesliders/index12/foto3.jpg')!important;
+}
+
+.kwicks li#panel-4 {
+    background-image: url('../images/homesliders/index12/foto4.jpg')!important;
+}

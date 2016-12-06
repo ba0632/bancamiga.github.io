@@ -1,0 +1,26 @@
+data-title: 'Nuestros Servicios'
+data-image: '/images/aboutsliders/aboutme/about2.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Nuestros Servicios'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Juntos hacemos equipo para ti.'
+next: next
+
+categories:
+  - link: '/personas-cuentas/'
+    image: '/images/segmentos/cuentas.png'
+  - link: '/personas-inversiones/'
+    image: '/images/segmentos/inversiones.png'
+  - link: '/personas-creditos/'
+    image: '/images/segmentos/creditos.png'
+  - link: '/personas-tarjetas/'
+    image: '/images/segmentos/tarjetas.png'
+  - link: '/personas-canales-electronicos/'
+    image: '/images/segmentos/banca-en-linea.png'
+
+title-footer: 'ENCUENTRA LO QUE BUSCAS'
+subtitle-footer: 'Nuestro norte es atenderte'
+text-button: 'Contáctanos'
+link-footer: '/centro-atencion-bancamiga/'

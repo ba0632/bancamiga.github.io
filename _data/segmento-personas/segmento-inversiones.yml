@@ -1,0 +1,22 @@
+data-title: 'Cuentas'
+data-image: '/images/aboutsliders/aboutme/about3.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Nuestros productos'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Conoce nuestras cuentas de ahorro y corriente'
+
+
+products:
+  - link: '/inversiones-certificado-ahorro/'
+    image: '/images/segmentos/ahorro.png'
+  - link: '/inversiones-certificado-deposito-a-plazo/'
+    image: '/images/segmentos/inversiones.png'
+  #- link: '/inversiones-deposito-plazo-fijo/'
+  #  image: '/images/segmentos/remunerada.png'
+
+title-footer: 'ENCUENTRA LO QUE BUSCAS'
+subtitle-footer: 'Nuestro norte es atenderte'
+text-button: 'Contáctanos'
+link-footer: /centro-atencion-bancamiga/

@@ -1,0 +1,33 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+permalink: /agencias/
+---
+
+{%
+    include index-bancamiga/g-static-img.html
+    image=site.data.80-agencias.image
+    data-title=site.data.80-agencias.data-title
+    data-image=site.data.80-agencias.data-image
+    data-x-title=site.data.80-agencias.data-x-title
+    data-y-title=site.data.80-agencias.data-y-title
+    title=site.data.80-agencias.title
+    data-x-subtitle=site.data.80-agencias.data-x-subtitle
+    data-y-subtitle=site.data.80-agencias.data-y-subtitle
+    subtitle=site.data.80-agencias.subtitle
+%}
+<div class="mb50"></div><!-- space -->
+<div class="container">
+  {% include index-bancamiga/as01-puntos-region.html %}
+  {% include index-bancamiga/as02-portfolio-agencias.html %}
+</div>
+<div class="mb20"></div><!-- space -->
+{% include index-bancamiga/g-menu-links.html %}
+<div class="mb10"></div><!-- space -->
+{% include index-bancamiga/g-footer-callout.html
+  title-footer=site.data.80-agencias.title-footer
+  subtitle-footer=site.data.80-agencias.subtitle-footer
+  text-button=site.data.80-agencias.text-button
+  link-footer=site.data.80-agencias.link-footer
+%}

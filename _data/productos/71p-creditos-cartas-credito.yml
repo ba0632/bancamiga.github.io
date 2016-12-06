@@ -1,0 +1,76 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about4.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Cartas de Crédito'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: Concedido para para mejorar tu inversión,</br>rentabilidad,negocios,obtener capital de trabajo o la alternativa</br> que necesites.
+next: next
+
+#tabs para descripción de un producto
+tabs-left:
+  - id-tabs: description1
+    icon-tabs: fa fa-home fa-2x
+    name-tabs: Descripción
+    content-tabs:
+      - element-list: Queremos que obtengas el mejor rendimiento por tu dinero, por eso te presentamos la Cuenta Corriente con Intereses que puede ser movilizada a través de una chequera y nuestra Banca por Internet Bancamiga en Línea, además genera intereses sobre saldos diarios y los mismos son abonados a fin de mes.</br><h4 class="titleDescription mt40">Abre una Cuenta Corriente hoy en tu agencia Bancamiga más cercana!</h4>
+  - id-tabs: caracteristica1
+    icon-tabs: fa fa-user fa-2x
+    name-tabs: Características
+    content-tabs:
+      - element-list: Monto de Apertura Flexible
+      - element-list: Los intereses son calculados sobre saldos diarios, según tabla referencial y abonados a fin de mes.<a href=""> Ver tasa de interés</a>
+      - element-list: Cheques aceptados a nivel nacional.
+      - element-list: Emisión de las primeras dos chequeras sin costo.<a href=""> Ver comisiones</a>
+      - element-list: Permite realizar transacciones ilimitadas.
+      - element-list: Movilidad a través de cheques, depósitos y retiros de efectivo en cualquiera de las agencias de  Bancamiga y a través de nuestra Banca por Internet Bancamiga en Línea.
+      - element-list: Seguridad en el pago a proveedores y de terceros, ya que al usar cheques se reduce el riesgo de manejo de efectivo.
+      - element-list: Chequeras disponibles según tu preferencia de 25 o 50 cheques.
+      - element-list: Afiliación sin costo al Servicio de Bancamiga en Línea donde podrás movilizar y consultar saldos cómodamente y en cualquier momento con tan sólo una conexión a Internet.
+      - element-list: Cuentas con el servicio telefónico para efectuar tus consultas a través del 0501 TUBANCA (8822622) (0212) 8220701 o (0212) 8220702 en horario corrido de Lunes a Domingo incluyendo los días feriados.
+      - element-list: Depósitos amparados por el Fondo de Garantía de Depósitos y Protección Bancaria (FOGADE).
+  - id-tabs: messages8
+    icon-tabs: fa fa-envelope fa-2x
+    name-tabs: Requisitos
+    content-tabs:
+      - element-list: Ser mayor de edad.
+      - element-list: Solicitar la apertura de la cuenta a través de cualquiera de nuestras agencias Bancamiga.
+      - element-list: Consignar los recaudos solicitados según el tipo de cliente, en la agencia más cercana.
+  - id-tabs: Recaudos1
+    icon-tabs: fa fa-file fa-2x
+    name-tabs: Recaudos
+    content-tabs:
+      - element-list: Original y copia legible de la cédula de identidad vigente de los titulares, cotitulares y firmantes.
+      - element-list: Original y copia del RIF personal vigente. Aplica para el titular, cotitular y firmantes.
+      - element-list: Dos (2) Referencias Personales (no familiares), no mayor a tres (3) meses de emisión, donde se indique la dirección completa, tiempo de conocerse, profesión, teléfono local y celular, anexar copia del cédula de identidad del emisor vigente.
+      - element-list: Una (1) Referencia bancaria con sello húmedo del banco emisor con vigencia no mayor a tres (3) meses de emisión.
+      - element-list: Una (1) Referencia Comercial (si posee).
+      - element-list: Copia de un (1) Recibo de servicio (agua, luz, teléfono o gas) a nombre del titular con la dirección de residencia o constancia de residencia emitida por la Jefatura Civil, Junta de Condominio o Consejo Comunal, con vigencia no mayor a tres (3) meses de emisión.
+        mesages-footer: Estos recaudos se rigen por lo establecido en la <a href="">Resolución 119.10 "Política conozca a su cliente”</a> emitida por la SUDEBAN. Para algunos casos será necesario consignar documentos adicionales.
+  - id-tabs: Enlaces1
+    icon-tabs: fa fa-cogs fa-2x
+    name-tabs: Enlaces de Interes
+    content-tabs:
+      - element-list: <a href="http://www.bancamiga.com"> Montos de Apertura</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Tarifas</a>
+      - element-list: <a href="http://www.bancamiga.com"> Enlace de Tasas </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Términos y condiciones</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace para formatos, planillas y solicitudes </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace Preguntas Frecuentes</a>
+
+#Preguntas frecuentes
+title-seccion: Preguntas Frecuentes
+preguntas-frecuentes:
+  - name: ¿La Cuenta Corriente con Intereses posee interese?
+    id1-collapse: headingOne5
+    id2-collapse: collapseOne5
+    text-collapse: Desde luego que sí..!!.
+  - name: ¿Cómo se movilizan este tipo de cuentas?
+    id1-collapse: headingTwo5
+    id2-collapse: collapseTwo5
+    text-collapse: Es movilizada a través de una chequera y con nuestra Banca por Internet Bancamiga en Línea.
+  - name: ¿Dónde Puedo adquirir este producto?
+    id1-collapse: headingThree5
+    id2-collapse: collapseThree5
+    text-collapse: En su agencia Bancamiga mas cercana.

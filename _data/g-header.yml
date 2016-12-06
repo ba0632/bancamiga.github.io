@@ -1,0 +1,79 @@
+logo_pagina: "/images/Logo-29.svg"
+url-logo: "/index.html"
+
+logo_modal: "/images/Logo-29.svg"
+text-modal: Estimado Cliente, le informamos que segun lo establecido en </br>la <b class="Importante">Resolución N° 641.10</b> emitida por la <b class="Importante">SUDEBAN</b>, usted ingresará a una página Web, cuya seguridad no depende ni es responsabilidad de <b class="Importante">BANCAMIGA Banco Microfinanciero C.A</b>"
+url-modal: "https://www.credicardenlinea.com.ve/web/bancamiga"
+button-text: "Regresar"
+
+
+
+button1-text: "Consulta de TDC"
+button2-text: "Bancamiga en línea"
+button2-url: "http://enobasistemas.com/banca_web_synergy/#/access/login"
+
+button1-text: "Consulta"
+button2-text: "Bancamiga en línea"
+button2-text-modal: "Continuar"
+button2-url: "http://bancaplusweb.synergy-gb.com/latest"
+link-synergy: "http://www.synergy-gb.com"
+
+
+option-menu:
+  - name: Personas
+    icon:  fa fa-user fa-2x
+    option: true
+    options:
+      - name-option: Cuentas
+        url-option: /personas-cuentas/
+      - name-option: Inversiones
+        url-option: /personas-inversiones/
+      - name-option: Créditos
+        url-option: /personas-creditos/
+      - name-option: Tarjetas
+        url-option: /personas-tarjetas/
+      - name-option: Canales Electrónicos
+        url-option: /personas-canales-electronicos/
+  - name: Empresas
+    icon:  fa fa-briefcase fa-2x
+    option: true
+    options:
+      - name-option: Cuentas
+        url-option: /empresas-cuentas/
+      - name-option: Inversiones
+        url-option: /empresas-inversiones/
+      - name-option: Créditos
+        url-option: /empresas-creditos/
+  - name: Corporativo
+    icon: fa fa-building fa-2x
+    href: /conocenos/
+    #options:
+      #- name-option: Conócenos
+        #url-option: /pages/20-interna.html
+      #- name-option: Ubicanos
+        #url-option: /agencias/
+  - name: Servicios
+    icon: fa fa-cubes fa-2x
+    option: true
+    options:
+      - name-option: Bancamiga en Línea
+        url-option: /banca-en-linea/
+      - name-option: Bancamiga Móvil
+        url-option: /
+      - name-option: SMS Bancamiga
+        url-option: /sms/
+      - name-option: Chequeras
+        url-option: /chequeras/
+      - name-option: Cheques de Gerencia
+        url-option: /cheques-gerencia/
+  #- name: Pymes
+  #  icon: fa fa-users fa-2x
+  - name: Atención al cliente
+    icon: fa fa-phone fa-2x
+    options:
+      - name-option: Contáctanos
+        url-option: /centro-atencion-bancamiga/
+      - name-option: Defensor del Cliente
+        url-option: /defensor-del-cliente/
+      - name-option: Reclamos
+        url-option: /reclamos/

@@ -1,0 +1,33 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+permalink: /empresas/
+---
+
+{%
+  include index-bancamiga/g-static-img.html
+  image=site.data.31-segmentos-empresas.image
+  data-title=site.data.31-segmentos-empresas.data-title
+  data-image=site.data.31-segmentos-empresas.data-image
+  data-x-title=site.data.31-segmentos-empresas.data-x-title
+  data-y-title=site.data.31-segmentos-empresas.data-y-title
+  title=site.data.31-segmentos-empresas.title
+  data-x-subtitle=site.data.31-segmentos-empresas.data-x-subtitle
+  data-y-subtitle=site.data.31-segmentos-empresas.data-y-subtitle
+  subtitle=site.data.31-segmentos-empresas.subtitle
+%}
+<div class="mb40"></div><!-- space -->
+{% include index-bancamiga/ss02-productos.html
+  categories=site.data.31-segmentos-empresas.categories
+  %}
+<div class="mb10"></div><!-- space -->
+{% include index-bancamiga/g-menu-links.html %}
+<div class="mb10"></div><!-- space -->
+{%
+  include index-bancamiga/g-footer-callout.html
+  title-footer=site.data.31-segmentos-empresas.title-footer
+  subtitle-footer=site.data.31-segmentos-empresas.subtitle-footer
+  text-button=site.data.31-segmentos-empresas.text-button
+  link-footer=site.data.31-segmentos-empresas.link-footer
+%}

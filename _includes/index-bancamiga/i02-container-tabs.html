@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+
+            <div role="tabpanel">
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-pills nav-justified" role="tablist">
+                  {% for tab in include.list-tabs %}
+                    <li role="presentation" {% if forloop.first %}class="active"{% endif%}>
+                        <a href="#{{ tab.id-tabs}}" aria-controls="{{ tab.id-tabs}}" role="tab" data-toggle="tab"><i class="{{ tab.icon-tabs }}"></i>{{ tab.name-tabs }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+
+                <!-- Tab Panes -->
+
+                <div class="tab-content">
+                  {% for item in include.list-tabs %}
+                    <div role="tabpanel" {% if forloop.first %}class="tab-pane active"{%else%}class="tab-pane"{% endif%} id="{{ item.id-tabs }}">
+                      <ol>
+                        {% for tab in item.content-tabs %}
+                        <li type="disc" style="margin-left:1em;font-size: 16px;color: #134d88;">
+                        {{ tab.element-list }}
+                          <ol>
+                            {% for element in tab.recaudos %}
+                            <b>{{ element.title }}</b>
+                            <li type="square" style="margin-left:2em;font-size: 16px;color: #134d88;">
+                              {{ element.requisito }}
+                            </li>
+                            {% endfor %}
+                            <b>{{ tab.mesages-footer }}</b>
+                          </ol>
+                        </li>
+                        {% endfor %}
+                      </ol>
+                    </div><!-- End .tab-pane -->
+                  {% endfor %}
+                </div><!-- End .tab-content -->
+            </div><!-- end role[tabpanel] -->
+        </div><!-- End .col-xs-12 -->
+    </div><!-- End .row -->
+</div><!-- End .container -->

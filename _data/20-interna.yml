@@ -1,0 +1,60 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Conócenos'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Somo una institución privada que apoya</br> el desarrollo económico del pais. especializada</br> en
+satisfacer las necesidades financieras del</br> sector microempresarial.'
+
+
+text-title: "Nuestra Historia"
+text-about: 'Bancamiga es una institución constituida con capital privado, que apoya el desarrollo económico del país, especializada en satisfacer las necesidades financieras del sector microempresarial.
+
+Inicia operaciones como Banco de Desarrollo en abril del año 2007, a partir de entonces se ha enfocado en el otorgamiento de microcréditos dirigidos principalmente a los sectores: Comercio, Transporte y Servicios en general.
+
+En diciembre del año 2010, la Ley establece que el sistema bancario venezolano deberá estar compuesto sólo por bancos universales y microfinancieros, por lo cual los bancos bajo otras figuras deberían adecuarse o fusionarse, es entonces cuando la Junta Directiva de Bancamiga, después de analizar la situación, ver la creciente demanda del sector de las microempresas, tomaron la decisión de expandir sus actividades, incrementar su capital social y operar como Banco Microfinanciero desde el año 2011. Esta transformación ha sido altamente positiva tanto para clientes y usuarios como para los empleados, pues ahora permite brindar todas las operaciones financieras, incluidas las especializadas y ser más competitivos en el mercado bancario.
+
+Acompañada a esta inversión, Bancamiga cambia tu estrategia de negocios y se presenta de una manera distinta con una imagen que evoluciona en busca de proyectar tu crecimiento, por ello, vemos un logo renovado que refleja dinamismo y fuerza, a través de cuatro aspas que representan cada uno de sus clientes que junto al impulso de Bancamiga, se ensamblan fluidamente para generar un movimiento poderoso y sostenido, una sinergia en la que Bancamiga y sus clientes avanzarán y progresarán juntos.
+
+La excelente trayectoria hace que hoy puedan sentirse orgullosos de estar mejor preparados para brindar productos y servicios adicionales, es por ello que en la actualidad, continúa su proceso de expansión donde además de continuar impulsando actividades productivas, ofrece productos de movilidad e inversión, logrando favorecer a un mayor número de clientes.'
+
+
+image-about:
+  - image: /images/aboutsliders/aboutme/sliders/foto1.png
+    description: Images-1
+  - image: /images/aboutsliders/aboutme/sliders/foto2.png
+    description: Images-2
+  - image: /images/aboutsliders/aboutme/sliders/foto3.png
+    description: Images-3
+
+next: 'container-about'
+
+tabs:
+  - id-tabs: description10
+    icon-tabs: fa fa-home fa-2x
+    name-tabs: Misión
+    content-tabs:
+      - element-list: "Ofrecer productos y servicios financieros al sector microempresarial, satisfaciendo constantemente sus necesidades, contribuyendo al desarrollo del país, a través de un personal motivado, comprometido con nuestros valores y la rentabilidad del negocio"
+  - id-tabs: profile10
+    icon-tabs: fa fa-user fa-2x
+    name-tabs: Visión
+    content-tabs:
+      - element-list: "Ser una organización financiera que trabaja en equipo, siendo clave en el desarrollo y consolidación del microempresariado en Venezuela"
+  - id-tabs: messages10
+    icon-tabs: fa fa-envelope fa-2x
+    name-tabs: Valores
+    content-tabs:
+      - element-list: Integridad
+      - element-list: Servir con calidad
+      - element-list: Orientación al logro
+      - element-list: Responsabilidad individual y social
+      - element-list: Innovación
+      - element-list: Trabajo en equipo
+  - id-tabs: responsabilidad10
+    icon-tabs: fa fa-child fa-2x
+    name-tabs: Responsabilidad Social
+    content-tabs:
+      - element-list: "<a href='http://www.unicef.org/venezuela/spanish/'>UNICEF</a>"
+      - element-list: "<a href='http://tatuandosonrisas.org/'>Tatuando Sonrisas</a>"

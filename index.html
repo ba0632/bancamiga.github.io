@@ -1,0 +1,21 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+---
+
+
+{% include index-bancamiga/h01-carrousel.html %}
+<div class="mb10"></div><!-- space -->
+<div class="mb10"></div><!-- space -->
+{% include index-bancamiga/ss01-productos.html %}
+{% include index-bancamiga/g-menu-links.html %}
+<div class="mb10"></div><!-- space -->
+{% include index-bancamiga/h02-noticias.html %}
+{%
+  include index-bancamiga/g-footer-links.html
+  title-footer=site.data.10-home.title-footer
+  subtitle-footer=site.data.10-home.subtitle-footer
+  text-button=site.data.10-home.text-button
+  footer-link= site.data.10-home.footer-link
+%}

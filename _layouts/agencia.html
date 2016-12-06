@@ -1,0 +1,31 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+permalink: /agencia/
+---
+
+{%
+    include index-bancamiga/g-static-img.html
+    image=site.data.90-agencia.image
+    data-title=site.data.90-agencia.data-title
+    data-image=site.data.90-agencia.data-image
+    data-x-title=site.data.90-agencia.data-x-title
+    data-y-title=site.data.90-agencia.data-y-title
+    title=site.data.90-agencia.title
+    data-x-subtitle=site.data.90-agencia.data-x-subtitle
+    data-y-subtitle=site.data.90-agencia.data-y-subtitle
+    subtitle=site.data.90-agencia.subtitle
+%}
+
+<div class="mb50"></div><!-- space -->
+<div class="container">
+  {% include index-bancamiga/a01-datos-de-puntos-geograficos.html %}
+  {% include index-bancamiga/a02-mapa.html %}
+</div>
+{% include index-bancamiga/g-menu-links.html %}
+<div class="mb10"></div><!-- space -->
+{% include index-bancamiga/g-footer-links.html
+  title-footer=site.data.90-agencia.title-footer
+  subtitle-footer=site.data.90-agencia.subtitle-footer
+%}

@@ -1,0 +1,108 @@
+---
+layout: 10-home
+title: "Índice de noticias"
+permalink: /indice/
+style-css: "style-bancamiga2.css"
+---
+
+{%
+    include index-bancamiga/g-static-img.html
+    image=site.data.20-interna.image
+    data-title=site.data.20-interna.data-title
+    data-image=site.data.20-interna.data-image
+    data-x-title=site.data.20-interna.data-x-title
+    data-y-title=site.data.20-interna.data-y-title
+    title=site.data.20-interna.title
+    data-x-subtitle=site.data.20-interna.data-x-subtitle
+    data-y-subtitle=site.data.20-interna.data-y-subtitle
+    subtitle=site.data.20-interna.subtitle
+%}
+  <div class="mb40"></div><!-- space -->
+<div class="container-fluid">
+
+  <div class="row">
+		<div class="text-center">
+			<h2 class="title-underblock custom">{{ page.title}}</h2>
+
+		{% assign rawcategories = "" %}
+		{% assign posts=site.posts %}
+		{% for post in posts %}
+			{% assign tcateg = post.categories | join:'|' | append:'|' %}
+			{% assign rawcategories = rawcategories | append:tcateg %}
+		{% endfor %}
+		{% assign rawcategories = rawcategories | split:'|' | sort %}
+
+		{% assign categories = "" %}
+		{% for cat in rawcategories %}
+			{% if cat != "" %}
+				{% if categories == "" %}
+					{% assign categories = cat | split:'|' %}
+				{% endif %}
+				{% unless categories contains cat %}
+					{% assign categories = categories | join:'|' | append:'|' | append:cat | split:'|' %}
+				{% endunless %}
+			{% endif %}
+		{% endfor %}
+
+		<div class="widget">
+					<div class="row tag clearfix">
+						{% for cat in categories %}
+							<a href="#{{ cat | slugify }}">{{ cat }}</a>{% continue %}
+						{% endfor %}
+					</div><!-- End .tagcloud -->
+		</div><!-- End .widget -->
+</div>
+
+    <div class="container">
+
+
+
+		{% for cat in categories %}
+			<h3 class="title-underblock custom">
+		   		<span id="{{ cat | slugify }}"></span>
+		   		{{ cat }}
+			</h3>
+
+      <div class="container">
+        <div class="widget">
+          <div class="row">
+              <div class="col-md-12">
+                {% assign posts=site.posts %}
+    						{% for post in posts %}
+    							{% if post.categories contains cat %}
+                  <article class="entry entry-simple latest-posts-list">
+                    <div class="clearfix">
+                        <figure><img src="{{ post.images-home | prepend: site.baseurl | prepend: site.url }}" alt="Entry name"></figure>
+                        <div class="entry-content">
+                            <h3><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></h3>
+                            <div class="color-fuente-categorias">
+                              <p>{{ post.content | truncate:49 }}</p>
+                              <p>{{ post.date | date: "%d/%m/%Y" }}</p>
+                            </div>
+                        </div><!-- End .entry-content -->
+                       <footer class="entry-footer clearfix">
+                           <span class="entry-cats">
+                             {% for cat in post.categories %}
+                               <a class="cat" href="#{{ cat | slugify }}">{{ cat }}</a>{% unless forloop.last %} &middot; {% endunless %}
+                             {% endfor %}
+                           </span><!-- End .entry-tags -->
+                           <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="entry-readmore text-right">{{ post.text-read-more }} <i class="fa fa-angle-right"></i></a>
+                       </footer>
+
+
+                    </div>
+                  </article>
+                  {% endif %}
+                  {% endfor %}
+              </div><!-- End .col-md-12 -->
+
+          </div><!-- End .row -->
+        </div>
+      </div><!-- End .container -->
+
+			<div class="mb40"></div><!-- space -->
+			{% endfor %}
+		</div>
+	</div>
+</div>
+</div>

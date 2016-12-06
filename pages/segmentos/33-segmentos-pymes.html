@@ -1,0 +1,33 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+permalink: /pymes/
+---
+
+{%
+  include index-bancamiga/g-static-img.html
+  image=site.data.33-segmentos-pymes.image
+  data-title=site.data.33-segmentos-pymes.data-title
+  data-image=site.data.33-segmentos-pymes.data-image
+  data-x-title=site.data.33-segmentos-pymes.data-x-title
+  data-y-title=site.data.33-segmentos-pymes.data-y-title
+  title=site.data.33-segmentos-pymes.title
+  data-x-subtitle=site.data.33-segmentos-pymes.data-x-subtitle
+  data-y-subtitle=site.data.33-segmentos-pymes.data-y-subtitle
+  subtitle=site.data.33-segmentos-pymes.subtitle
+%}
+<div class="mb40"></div><!-- space -->
+{% include index-bancamiga/ss02-productos.html
+  categories=site.data.33-segmentos-pymes.categories
+  %}
+<div class="mb10"></div><!-- space -->
+{% include index-bancamiga/g-menu-links.html %}
+<div class="mb10"></div><!-- space -->
+{%
+  include index-bancamiga/g-footer-callout.html
+  title-footer=site.data.33-segmentos-pymes.title-footer
+  subtitle-footer=site.data.33-segmentos-pymes.subtitle-footer
+  text-button=site.data.33-segmentos-pymes.text-button
+  link-footer=site.data.33-segmentos-pymes.link-footer
+%}

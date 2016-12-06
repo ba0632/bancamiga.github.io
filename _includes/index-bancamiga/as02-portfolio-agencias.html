@@ -1,0 +1,36 @@
+<div class="container">
+
+    <ul id="portfolio-filter" class="bordered text-center">
+        {% for item in site.data.80-agencias.categoria %}
+          <li {% if forloop.first %}class="active"{% endif%}>
+            <a href="#" data-filter="{% if forloop.first %}*{%else%}.{{ item.name }}{%endif%}">{{ item.name }}</a>
+          </li>
+        {% endfor%}
+    </ul>
+
+</div><!-- End .container -->
+    <div class="container" style="padding-left: 0px;padding-right: 0px;">
+        <div id="portfolio-item-container" class="whitebg max-col-4 no-margin popup-gallery" data-layoutmode="fitRows">
+              {% for item in site.geo %}
+              <div class="portfolio-item portfolio-meta-slideup push {{ item.office_category }}">
+                  <div id="segmentos" class="container service-group">
+                      <!--segmentos parte de este punto-->
+                      <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service vertical service-hover-bg custom text-center" style="border: 1px solid;height: 17em;">
+                              <div class="service-content">
+                                  <h3 class="service-title text-uppercase">{{ item.name }}</h3>
+                              </div>
+                              <span class="service-icon {{ item.icon }}"></span>
+                              <div class="service-content">
+                                  <p class="textLocation">{{ item.address }}</p>
+                              </div><!-- End .service-content -->
+                          </div><!-- End .service -->
+                      </div><!-- End .col-sm-4 -->
+                      </a><!-- End .col-sm-4 -->
+                      <!-- end segmentos -->
+                  </div>
+              </div><!-- End .row -->
+              {% endfor %}
+        </div><!-- End .container -->
+  </div>

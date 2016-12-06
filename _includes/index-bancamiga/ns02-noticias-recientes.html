@@ -1,0 +1,52 @@
+<aside class="col-md-3 sidebar" role="complementary">
+
+  <div class="widget">
+      <h3 class="title-underblock custom">Noticias Recientes</h3>
+      <ul class="latest-posts-list">
+        {% for item in site.posts limit:5  %}
+          <li class="clearfix">
+              <figure><img src="{{ item.images-home | prepend: site.baseurl | prepend: site.url }}" alt="Entry name"></figure>
+              <div class="entry-content">
+                  <h5><a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">{{ item.title }}</a></h5>
+                  <p>{{ item.date | date: "%d/%m/%Y" }}</p>
+              </div><!-- End .entry-content -->
+          </li>
+          {% endfor%}
+      </ul>
+  </div><!-- End .widget -->
+<!--logic categories-->
+
+{% assign rawcategories = "" %}
+{% assign posts=site.posts %}
+{% for post in posts %}
+	{% assign tcateg = post.categories | join:'|' | append:'|' %}
+	{% assign rawcategories = rawcategories | append:tcateg %}
+{% endfor %}
+{% assign rawcategories = rawcategories | split:'|' | sort %}
+
+{% assign categories = "" %}
+{% for cat in rawcategories %}
+	{% if cat != "" %}
+		{% if categories == "" %}
+			{% assign categories = cat | split:'|' %}
+		{% endif %}
+		{% unless categories contains cat %}
+			{% assign categories = categories | join:'|' | append:'|' | append:cat | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+
+
+    <div class="widget">
+        <h3 class="title-underblock custom">Categorias</h3>
+          <div class="row tagcloud clearfix">
+            {% for cat in categories %}
+            <div class="col">
+              <a href="{{ "/indice/#" | append: cat | downcase | prepend: site.baseurl | prepend: site.url }}">{{ cat }}</a>{% continue %}
+              <a href="{{ "/indice/#" | append: cat | downcase | prepend: site.baseurl | prepend: site.url }}">{{ cat }}</a>{% continue %}
+              <a href="{{ "/indice/#" | append: cat | downcase | prepend: site.baseurl | prepend: site.url }}">{{ cat }}</a>{% continue %}
+            </div>
+            {% endfor %}
+          </div><!-- End .tagcloud -->
+    </div><!-- End .widget -->
+</aside><!-- End .col-md-3 -->

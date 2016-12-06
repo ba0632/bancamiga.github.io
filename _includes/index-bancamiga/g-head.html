@@ -1,0 +1,48 @@
+<head>
+    <meta charset="utf-8">
+    <!-- Avoid being indexed by robots -->
+    <meta name="robots" value="noindex, nofollow" />
+
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+    <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600italic,700italic,600,800,300,700,800italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <!-- Google Fonts -->
+
+
+    <link rel="stylesheet" href="{{ "/css/animate.css" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/magnific-popup.css" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/revslider/" | append: page.revslider-css | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/" | append: page.style-css  | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" id="color-scheme" href="{{ "/css/colors/" | append: site.data.global-design.color_css  | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/jquery.kwicks.css" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ "/css/mediaelementplayer.css" | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Favicon and Apple Icons -->
+    <link rel="icon" type="image/png" href="{{ "/images/icons/favicon.png" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ "/images/icons/faviconx57.png" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ "/images/icons/faviconx72.png" | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Modernizr -->
+    <script src="{{"/js/modernizr.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+    <!--- jQuery -->
+    <script src="{{"/js/jquery.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+
+
+    <!-- Queryloader -->
+    <script src="{{"/js/queryloader2.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+    <script src="{{"/js/jekyll-search.js" | prepend: site.baseurl | prepend:site.url  }}" type="text/javascript"></script>
+</head>

@@ -1,0 +1,34 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+permalink: /empresas-inversiones/
+---
+
+{%
+  include index-bancamiga/g-static-img.html
+  image=site.data.segmento-empresas.segmento-inversiones.image
+  data-title=site.data.segmento-empresas.segmento-inversiones.data-title
+  data-image=site.data.segmento-empresas.segmento-inversiones.data-image
+  data-x-title=site.data.segmento-empresas.segmento-inversiones.data-x-title
+  data-y-title=site.data.segmento-empresas.segmento-inversiones.data-y-title
+  title=site.data.segmento-empresas.segmento-inversiones.title
+  data-x-subtitle=site.data.segmento-empresas.segmento-inversiones.data-x-subtitle
+  data-y-subtitle=site.data.segmento-empresas.segmento-inversiones.data-y-subtitle
+  subtitle=site.data.segmento-empresas.segmento-inversiones.subtitle
+%}
+<div class="mb40"></div><!-- space -->
+{% include index-bancamiga/s02-grid-2-columnas.html
+    products=site.data.segmento-empresas.segmento-inversiones.products
+  %}
+<div class="mb10"></div><!-- space -->
+{% include index-bancamiga/g-menu-links.html %}
+<div class="mb10"></div><!-- space -->
+
+{%
+  include index-bancamiga/g-footer-callout.html
+  title-footer=site.data.segmento-empresas.segmento-inversiones.title-footer
+  subtitle-footer=site.data.segmento-empresas.segmento-inversiones.subtitle-footer
+  text-button=site.data.segmento-empresas.segmento-inversiones.text-button
+  link-footer=site.data.segmento-empresas.segmento-inversiones.link-footer
+%}

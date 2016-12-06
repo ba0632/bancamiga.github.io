@@ -1,0 +1,14 @@
+<div id="segmentos" class="container service-group">
+    <div class="row">
+        {% for segments in site.data.10-home.segments %}
+        <a href="{{ segments.segment-link  | prepend: site.baseurl | prepend: site.url }}">
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="service vertical segmentos">
+            <img src="{{ segments.link | prepend: site.baseurl | prepend: site.url }}"
+            style="height: 10em;"/>
+          </div>
+        </div><!-- End .col-sm-4 -->
+        </a><!-- End .col-sm-4 -->
+        {% endfor %}
+    </div><!-- End .row -->
+</div><!-- End .container -->

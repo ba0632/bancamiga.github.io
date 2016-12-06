@@ -1,0 +1,19 @@
+<div id="container-about" class="container">
+    <h2 class="title-underblock custom">{{ include.title-interna }}</h2>
+    <div class="row">
+        <div class="col-md-6">
+          <ol>
+            {% for item in include.list-about %}
+              <li class="text-about">{{ item.element-list }}</li>
+            {% endfor %}
+          </ol>
+        </div><!-- End .col-md-6 -->
+        <div class="col-md-6">
+            <div class="owl-carousel aboutus-slider">
+                {% for item in include.list-images %}
+                  <img src="{{ item.image | prepend: site.baseurl | prepend: site.url }}" alt="{{ item.description }}">
+                {% endfor %}
+            </div><!-- End .owl-carousel -->
+        </div><!-- End .col-md-6 -->
+    </div><!-- End .row -->
+</div><!-- End .container -->

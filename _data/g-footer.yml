@@ -1,0 +1,94 @@
+logo-footer: '/images/synergy-1.png'
+# title - Bancamiga
+title-col-1: "Bancamiga"
+icon-col-1: fa fa-university
+
+# title - Servicios
+title-col-2: "Servicios"
+icon-col-2: fa fa fa-shield
+
+# title - Servicios
+title-col-3: "Responsabilidad Social"
+icon-col-3: fa fa-flag
+
+# title - Servicios
+title-col-4: "Redes Sociales"
+icon-col-4: fa fa-share-alt-square
+
+# links-bancamiga
+links-bancamiga:
+  - title: Régimen cambiario
+    link: /
+    icon: fa fa-angle-right
+  - title: Tesorería
+    link: /
+    icon: fa fa-angle-right
+  - title: Pagos y cobranzas
+    link: /
+    icon: fa fa-angle-right
+  - title: Fideicomisos
+    link: /
+    icon: fa fa-angle-right
+  - title: Tazas y tarifas
+    link: /tazas-y-tarifas/
+    icon: fa fa-angle-right
+  - title: Politicas de Privacidad
+    link: /
+    icon: fa fa-angle-right
+  - title: Financiamiento
+    link: /
+    icon: fa fa-angle-right
+  - title: Comercio Exterior
+    link: /
+    icon: fa fa-angle-right
+  - title: Noticias
+    link: /noticias/
+    icon: fa fa-angle-right
+  - title: Seguridad
+    link: /seguridad/
+    icon: fa fa-angle-right
+  - title: Empleos
+    link: /
+    icon: fa fa-angle-right
+
+# links-Servicios
+links-Servicios:
+  - title: Bancamiga en Línea
+    link: /banca-en-linea/
+    icon: fa fa-angle-right
+  - title: Bancamiga Móvil
+    link: /
+    icon: fa fa-angle-right
+  - title: Chequeras
+    link: /chequeras/
+    icon: fa fa-angle-right
+  - title: Cheques de Gerencia
+    link: /cheques-gerencia/
+    icon: fa fa-angle-right
+  - title: Centro de Atención Bancamiga
+    link: /centro-atencion-bancamiga/
+    icon: fa fa-angle-right
+  - title: Quienes Somos
+    link: /conocenos/
+    icon: fa fa-angle-right
+  - title: Defensor del Cliente y Usuario Bancario
+    link: /defensor-del-cliente/
+    icon: fa fa-angle-right
+  - title: Atención al Cliente
+    link: /reclamos/
+    icon: fa fa-angle-right
+  - title: SMS Bancamiga
+    link: /sms/
+    icon: fa fa-angle-right
+  - title: Otros servicios
+    link: /
+    icon: fa fa-angle-right
+
+# links-Responsabilidad Social
+links-responsabilidad-social:
+  - title: UNICEF
+    link: /
+    icon: fa fa-angle-right
+  - title: Tatuando Sonrisas
+    link: /
+    icon: fa fa-angle-right

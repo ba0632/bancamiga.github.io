@@ -1,0 +1,22 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about2.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Sucursales'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Ubicanos en cualquier parte del país.'
+next: next
+
+title-footer: 'Encuentra lo que Buscas'
+subtitle-footer: 'Nuestro norte es atenderte'
+text-button: 'Contactanos'
+link-footer: /centro-atencion-bancamiga/
+
+categoria:
+  - name: 'TODAS'
+  - name: 'Occidental'
+  - name: 'Central'
+  - name: 'Centro-occidental'
+  - name: 'Guayana'
+  - name: 'Oriente'

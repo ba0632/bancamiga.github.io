@@ -1,0 +1,20 @@
+<div class="modal fade" id="modal-text" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-sm" style="width: 46em;">
+        <div class="modal-content">
+            <div class="modal-header">
+              <img class="img-responsive margin-auto" src="{{ site.data.g-header.logo_modal  | prepend: site.baseurl | prepend: site.url }}">
+            </div><!-- End .modal-header -->
+            <div class="modal-body text-center">
+            <p>{{ include.text }}</p>
+            </div><!-- End .modal-body -->
+            <div class="modal-footer">
+              <div class="text-center">
+                <button style="margin-right: 10px;" type="button" class="btn buttonRegister" data-dismiss="modal">{{ include.button-text }}</button>
+                <a href="{{ include.button2-link }}">
+                  <button class="btn btn-custom">{{ include.button2-text-modal }}</button>
+                </a>
+              </div>
+            </div><!-- End .modal-footer -->
+        </div><!-- End .modal-content -->
+    </div><!-- End .modal-dialog -->
+  </div><!-- End .modal -->

@@ -1,0 +1,32 @@
+data-title: 'Nuestros Servicios'
+data-image: '/images/aboutsliders/aboutme/about2.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Nuestros Servicios'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Respaldo y Experiencia Financiera a tu medida.'
+next: next
+
+categories:
+  - link: '/banca-en-linea/'
+    image: '/images/segmentos/banca-en-linea.png'
+  - link: '/banca-movil/'
+    image: '/images/segmentos/banca-movil.png'
+  - link: '/chequeras/'
+    image: '/images/segmentos/chequeras.png'
+  - link: '/cheques-gerencia/'
+    image: '/images/segmentos/cheques-gerencia.png'
+  - link: '/centro-atencion-bancamiga/'
+    image: '/images/segmentos/centro-atencion.png'
+  - link: '/defensor-cliente/'
+    image: '/images/segmentos/defensor-cliente.png'
+  - link: '/sms/'
+    image: '/images/segmentos/sms.png'
+
+
+
+title-footer: 'ENCUENTRA LO QUE BUSCAS'
+subtitle-footer: 'Nuestro norte es atenderte'
+text-button: 'Contáctanos'
+link-footer: /centro-atencion-bancamiga/

@@ -1,0 +1,65 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Bancamiga en Línea'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: ''
+
+
+text-title: "Bancamiga en Línea"
+text-about: 'Mediante este canal, puedes efectuar diversas transacciones bancarias con nuestra institución en tiempo real, evitando desplazarte hacia nuestras agencias. Ideal para que consultes el saldo y movimientos de tus cuentas o las de tu negocio cada vez que lo necesites con solo una conexión a Internet. Te invitamos hoy a unirte al Servicio Bancamiga en línea para que lo utilices cuando lo desees y cuantas veces sea necesario.'
+
+
+image-about:
+  - image: /images/aboutsliders/aboutme/sliders/foto1.png
+    description: Images-1
+  - image: /images/aboutsliders/aboutme/sliders/foto2.png
+    description: Images-2
+  - image: /images/aboutsliders/aboutme/sliders/foto3.png
+    description: Images-3
+
+next: 'container-about'
+
+tabs:
+  - id-tabs: caracteristica1
+    icon-tabs: fa fa-user fa-2x
+    name-tabs: Características
+    content-tabs:
+      - element-list: Transferencias entre tus cuentas,  así como a terceros dentro y fuera de Bancamiga de manera ágil.
+      - element-list: Realizar pagos de tus Tarjetas de Crédito propias o de terceros en el mismo Banco y en otros Bancos.
+      - element-list: Consulta de tus créditos en Bancamiga.
+      - element-list: Generación de Estados de cuenta.
+      - element-list: Cuentas con el servicio de Mensajería de Texto SMS para alertarte cada vez que realices una transacción.
+      - element-list: Disponible las 24 horas del día, los 365 días del año, con sólo acceder a la sección  de Bancamiga en Línea a través de nuestra página web Bancamiga.
+      - element-list: Cuentas con el servicio telefónico para efectuar tus consultas a través del 0501 TUBANCA (8822622)  (0212) 8220701 o (0212) 8220702 en horario corrido de Lunes a Domingo incluyendo los días feriados.
+      - element-list: "Monto diario permitido para transferencias a terceros y otros bancos:"
+        recaudos:
+          - requisito: "Persona Natural: Bs. 600.000,00."
+          - requisito: "Persona Jurídica: Bs. 1.000.000,00."
+  - id-tabs: messages8
+    icon-tabs: fa fa-envelope fa-2x
+    name-tabs: Requisitos
+    content-tabs:
+      - element-list: Ser cliente Bancamiga con cualquiera de nuestros productos financieros.
+      - element-list: Consignar los recaudos solicitados según el tipo de cliente en cualquiera de nuestras agencias.
+      - element-list: "Personas naturales:"
+        recaudos:
+          - requisito: Cédula de Identidad laminada y vigente.
+          - requisito: Firma de la Planilla de Solicitud del Servicio.
+      - element-list: "Personas Jurídicas:"
+        recaudos:
+          - requisito: Carta de autorización por parte de la empresa.
+          - requisito: Cédula del representante legal de la empresa.
+          - requisito: Firma de la Planilla de Solicitud del Servicio.
+  - id-tabs: messages10
+    icon-tabs: fa fa-envelope fa-2x
+    name-tabs: Valores
+    content-tabs:
+      - element-list: Integridad
+      - element-list: Servir con calidad
+      - element-list: Orientación al logro
+      - element-list: Responsabilidad individual y social
+      - element-list: Innovación
+      - element-list: Trabajo en equipo

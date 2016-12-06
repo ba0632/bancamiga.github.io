@@ -1,0 +1,44 @@
+<div class="col-md-12">
+
+    <article class="entry single" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <div class="entry-media">
+            <figure class="">
+                    <img src="{{ page.images | prepend: site.baseurl | prepend: site.url }}" alt="Entry Title">
+            </figure>
+        </div><!-- End .entry-media -->
+
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          <span class="entry-date">{{ page.date | date: "%-d" }}<span>{{ page.date | date: "%b" }}</span></span>
+        </time>
+        <span class="entry-format"><i class="fa fa-file-image-o"></i></span>
+        <h2 class="entry-title" itemprop="name headline">{{ page.title }}</h2>
+        <div class="entry-content" itemprop="articleBody">
+          {{ content }}
+        </div>
+
+
+        {% if false %}
+        <div class="about-author clearfix">
+            <h3 class="title-underblock custom" itemprop="author" itemscope itemtype="http://schema.org/Person">Autor: <a href="#">{{ page.author }}</a></h3>
+
+            <figure class="pull-left"><img src="{{ page.author-image | prepend: site.baseurl | prepend: site.url  }}" class="img-circle" alt="{{ page.author }}"></figure>
+            <div class="author-content">
+                <p>{{ page.author-bio }}</p>
+            </div><!-- End .athor-content -->
+            <div class="social-icons">
+                <a href="{{ site.data.g-rrss.link-facebook }}" class="social-icon icon-facebook add-tooltip" data-placement="top" title="Facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="{{ site.data.g-rrss.link-twitter }}" class="social-icon icon-twitter add-tooltip" data-placement="top"  title="Twitter">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="{{ site.data.g-rrss.link-youtube }}" class="social-icon icon-google-plus add-tooltip" data-placement="top"  title="Youtube">
+                    <i class="fa fa-youtube-play"></i>
+                </a>
+            </div><!-- End .social-icons -->
+
+        </div><!-- End .about-author -->
+        {% endif %}
+    </article>
+</div><!-- End .col-md-12 -->

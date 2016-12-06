@@ -1,0 +1,110 @@
+data-title: 'Image-1'
+data-image: '/images/homesliders/10-home/foto-1.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Crédito Relámpago'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: Concedido para para mejorar tu inversión,</br>rentabilidad,negocios,obtener capital de trabajo o la alternativa</br> que necesites.
+next: next
+
+#tabs para descripción de un producto
+tabs-left:
+  - id-tabs: description1
+    icon-tabs: fa fa-home fa-2x
+    name-tabs: Descripción
+    content-tabs:
+      - element-list: Si perteneces a una Asociación, Cooperativa o Línea de Transporte que mantenga un convenio en Bancamiga y necesitas la mejor alternativa de financiamiento para  mejorar o repotenciar  unidades de transporte, no busques más. Tenemos el Crédito Relámpago; una línea de crédito que ofrece la flexibilidad que necesitas con un plazo de utilización de hasta 1 año y los mejores tiempos de respuesta a su solicitud. Solicite ya la Línea de Crédito Relámpago en su Agencia Bancamiga más cercana.
+  - id-tabs: caracteristica1
+    icon-tabs: fa fa-user fa-2x
+    name-tabs: Características
+    content-tabs:
+      - element-list: Línea de Crédito con aprobación del trámite en 48 horas. 
+      - element-list: Sin garantías ni fiador.
+      - element-list: Rápida aprobación y con los mínimos requisitos solicitados.
+      - element-list: Brindamos el apoyo oportuno al sector del transporte a nivel nacional.
+      - element-list: Ofrecemos la oportunidad de mejorar la flota de vehículos de su línea, asociación o cooperativa.
+      - element-list: Le brindamos asesoría personalizada en nuestra Red de Agencias.
+      - element-list: Los socios de las Líneas, Cooperativas o Asociaciones podrán contar con una línea de crédito aprobada de acuerdo a su capacidad de pago y realizar el uso total o en varias partes en el momento que lo necesite.
+      - element-list: "Características de La Línea de Crédito:"
+        recaudos:
+            - requisito: Otorgamos montos hasta 750.000 según sea la capacidad de pago.
+            - requisito: La vigencia de la línea es de 12 meses y puede renovar anualmente la Línea de Crédito de acuerdo al movimiento de los pago de sus cuotas.
+            - requisito: Dirigida a clientes naturales que sean propietarios de al menos (1) una unidad de transporte asociada a una Línea, Cooperativa o Asociación de conductores que tenga convenio con Bancamiga.
+      - element-list: "Características del uso de la Línea de Crédito:"
+        recaudos:
+            - requisito: Una vez aprobado el Crédito Relámpago, Bancamiga realizará el primer desembolso por la cantidad mínima de Bs. 30.000 o por la cantidad máxima de la línea otorgada.
+            - requisito: Plazo de financiamiento de hasta 12 meses.
+            - requisito: Tasa de interés variable de acuerdo a las ultimas publicada por el BCV. (Ver tasas de interés)
+            - requisito: Financiamos hasta el 100% del presupuesto presentado sin incluir el I.V.A. según saldo disponible en la Línea de Crédito aprobada.
+            - requisito: Forma de pago mensual de capital e intereses con cargo automático en su cuenta asociada al crédito.
+            - requisito: Comisión flat de 7,5% calculados sobre el monto a financiar, cobrados al momento del desembolso del crédito. 
+  - id-tabs: messages8
+    icon-tabs: fa fa-envelope fa-2x
+    name-tabs: Requisitos
+    content-tabs:
+      - element-list: Edad mínima 25 años.
+      - element-list: Antigüedad como socio de la Línea, Cooperativa o Asociación mínimo un (1) año.
+      - element-list: Original y copia del RIF.
+      - element-list: Original y copia de la Cédula de Identidad.
+      - element-list: Planilla de solicitud.
+      - element-list: Original y copia de  los documentos del vehículo.
+      - element-list: Presentar Certificado original expedido por la Línea de Transportistas, que acredite que el solicitante es socio activo de la Línea de transporte por más de un (1) año.
+      - element-list: Poseer al menos una (1) unidad de transporte asociada a la línea.
+      - element-list: Revisión del I.N.T.T.
+      - element-list: Listado del DT9 de la Línea de Transportistas sellado por el I.N.T.T
+      - element-list: Referencias bancarias, comerciales o personales (según aplique).
+      - element-list: Abrir o poseer una cuenta corriente en Bancamiga.
+      - element-list: "Para realizar desembolsos o uso de la línea de Crédito:"
+        recaudos:
+            - requisito: Original y Copia de la Cédula de Identidad.
+            - requisito: Planilla de solicitud. 
+            - requisito: Firma del documento de desembolso.
+            - requisito: Presupuesto de la mejora a realizar.
+  - id-tabs: Recaudos1
+    icon-tabs: fa fa-file fa-2x
+    name-tabs: Recaudos
+    content-tabs:
+      - element-list: Original y copia legible de la Cédula de Identidad vigente, laminada (del cónyuge si aplica).
+      - element-list: Copia legible del Registro de Información Fiscal (RIF) vigente (y del cónyuge si aplica).
+      - element-list: Formato Solicitud de Crédito (PN) debidamente completada y firmada (para descargar la planilla de solicitud haga clic aquí).
+      - element-list: Copia del título de propiedad o documentos que respalden la propiedad del vehículo. En caso de repotenciación a nombre del solicitante. 
+      - element-list: Constancia de afiliación a la línea de transporte, que acrediten que el solicitante es socio activo de la Línea de transporte por más de un año.
+      - element-list: Listado del DT9 de la línea sellado por el I.N.T.T (No mayor a 90 días de vigencia), evidenciando todos los cupos que posea.
+      - element-list: Impresión de la revisión del I.N.T.T de todos los vehículos que sean reportados (si aplica).
+      - element-list: "Referencias:"
+        recaudos:
+          - requisito: Una (1) Referencia Bancaria con sello húmedo del banco emisor con vigencia de hasta tres (3) meses o una (1) Referencia Comercial (si posee).
+          - requisito: Vigencia hasta dos (2) meses o dos (2) Referencias Personales (no familiares), no mayor a tres (3) meses de emisión, donde se indique la dirección completa, tiempo de conocerse, profesión, teléfono local y celular, anexar copia legible y vigente de la cédula de identidad del emisor.
+      - element-list: "Recaudos adicionales para realizar desembolsos o uso de la Línea de Crédito:"
+        recaudos:
+          - requisito: Original y copia legible de la Cédula de Identidad vigente, laminada (del cónyuge si aplica).
+          - requisito: Formato de Solicitud de Crédito (PN) debidamente completado y firmado.
+          - requisito: Firma del documento Préstamo por cuotas dentro de línea de Crédito Relámpago.
+          - requisito: Presupuesto de la inversión a realizar con máximo dos (2) meses de antigüedad.
+  - id-tabs: Enlaces1
+    icon-tabs: fa fa-cogs fa-2x
+    name-tabs: Enlaces de Interes
+    content-tabs:
+      - element-list: <a href="http://www.bancamiga.com"> Montos de Apertura</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Tarifas</a>
+      - element-list: <a href="http://www.bancamiga.com"> Enlace de Tasas </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Términos y condiciones</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace para formatos, planillas y solicitudes </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace Preguntas Frecuentes</a>
+
+#Preguntas frecuentes
+title-seccion: Preguntas Frecuentes
+preguntas-frecuentes:
+  - name: ¿La Cuenta Corriente con Intereses posee intereses?
+    id1-collapse: headingOne5
+    id2-collapse: collapseOne5
+    text-collapse: Desde luego que sí..!!.
+  - name: ¿Cómo se movilizan este tipo de cuentas?
+    id1-collapse: headingTwo5
+    id2-collapse: collapseTwo5
+    text-collapse: Es movilizada a través de una chequera y con nuestra Banca por Internet Bancamiga en Línea.
+  - name: ¿Dónde Puedo adquirir este producto?
+    id1-collapse: headingThree5
+    id2-collapse: collapseThree5
+    text-collapse: En su agencia Bancamiga mas cercana.

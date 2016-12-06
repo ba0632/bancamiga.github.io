@@ -1,0 +1,59 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about4.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Préstamos para tu negocio'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: Concedido para para mejorar tu inversión,</br>rentabilidad,negocios,obtener capital de trabajo o la alternativa</br> que necesites.
+next: next
+
+#tabs para descripción de un producto
+tabs-left:
+  - id-tabs: description1
+    icon-tabs: fa fa-home fa-2x
+    name-tabs: Descripción
+    content-tabs:
+      - element-list: Son Préstamos concedidos para mejorar tus inversiones, rentabilidad y negocios; donde la fuente principal de pago la constituya el producto de los ingresos generados por tus actividades. Ideal para ti que buscas expandirte, incrementar tu producción, diversificar tus fuentes de ingresos y obtener capital de trabajo para así­ poder llegar a más clientes.</br><h4 class="titleDescription mt40">Solicita tu crédito en la agencia Bancamiga más cercana, ¡te asesoramos!</h4>
+  - id-tabs: caracteristica1
+    icon-tabs: fa fa-user fa-2x
+    name-tabs: Características
+    content-tabs:
+      - element-list: Opciones que se adaptan a tu estilo de negocio
+      - element-list: Créditos diseñados de acuerdo a tu capacidad de pago.
+      - element-list: Plazos de financiamiento hasta 36 meses.
+      - element-list: Garantías de acuerdo al destino de los fondos.
+      - element-list: Forma de pago a través de cuotas mensuales y consecutivas, contentivas de capital más intereses.
+      - element-list: Puedes consultar tu crédito cómodamente a través de nuestro servicio de Bancamiga en Línea con tan sólo una conexión a Internet.
+  - id-tabs: messages8
+    icon-tabs: fa fa-envelope fa-2x
+    name-tabs: Requisitos
+    content-tabs:
+      - element-list: Poseer o abrir una Cuenta Corriente en Bancamiga para el cobro de las cuotas mensuales.
+      - element-list: Consignar los recaudos solicitados según el tipo de crédito.
+  - id-tabs: Enlaces1
+    icon-tabs: fa fa-cogs fa-2x
+    name-tabs: Enlaces de Interes
+    content-tabs:
+      - element-list: <a href="http://www.bancamiga.com"> Montos de Apertura</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Tarifas</a>
+      - element-list: <a href="http://www.bancamiga.com"> Enlace de Tasas </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Términos y condiciones</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace para formatos, planillas y solicitudes </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace Preguntas Frecuentes</a>
+
+#Preguntas frecuentes
+title-seccion: Preguntas Frecuentes
+preguntas-frecuentes:
+  - name: ¿La Cuenta Corriente con Intereses posee interese?
+    id1-collapse: headingOne5
+    id2-collapse: collapseOne5
+    text-collapse: Desde luego que sí..!!.
+  - name: ¿Cómo se movilizan este tipo de cuentas?
+    id1-collapse: headingTwo5
+    id2-collapse: collapseTwo5
+    text-collapse: Es movilizada a través de una chequera y con nuestra Banca por Internet Bancamiga en Línea.
+  - name: ¿Dónde Puedo adquirir este producto?
+    id1-collapse: headingThree5
+    id2-collapse: collapseThree5
+    text-collapse: En su agencia Bancamiga mas cercana.

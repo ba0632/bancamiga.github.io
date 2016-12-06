@@ -1,0 +1,51 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Chequeras'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Realiza tus Pagos y Moviliza tu dinero'
+
+
+text-title: "Chequeras"
+text-about: Es un servicio que prestamos a todos nuestros clientes que lo requieran, con lo cual el usuario goza de la comodidad y seguridad de aceptación general por que el girador es Bancamiga.
+
+
+
+image-about:
+  - image: /images/aboutsliders/aboutme/sliders/foto1.png
+    description: Images-1
+  - image: /images/aboutsliders/aboutme/sliders/foto2.png
+    description: Images-2
+  - image: /images/aboutsliders/aboutme/sliders/foto3.png
+    description: Images-3
+
+next: 'container-about'
+
+tabs:
+  - id-tabs: caracteristica1
+    icon-tabs: fa fa-thumbs-up fa-2x
+    name-tabs: Ventajas
+    content-tabs:
+      - element-list: Ideal para que movilices tus cuentas corrientes o las de tu negocio cada vez que lo necesites.
+      - element-list: Realices pagos a proveedores y de terceros, compres bienes y servicios y más.
+      - element-list: Se genera de forma inmediata con la apertura de tu cuenta corriente.
+      - element-list: Aceptados a nivel nacional y número de transacciones ilimitadas.
+      - element-list: Seguridad, ya que al usar cheques se reduce el riesgo de manejo de efectivo.
+      - element-list: Chequeras disponibles según tu necesidad.
+      - element-list: La emisión de cheques se rige de acuerdo a las estipulaciones legales y de seguridad emitidas por el Sistema Financiero y por el Banco a tales efectos.
+      - element-list: Cuentas con el servicio telefónico para efectuar tus consultas a través del 0501 TUBANCA (8822622), (0212) 8220701 o (0212) 8220702 en el horario corrido de Lunes a Domingo de 07:00 AM a 09:00 PM incluyendo los días feriados.
+      - element-list: Los clientes podrán cobrar los cheques directamente a través de la Red de Agencias de Bancamiga.
+  - id-tabs: messages8
+    icon-tabs: fa fa-info-circle fa-2x
+    name-tabs: Consejos sobre el buen uso de las chequeras
+    content-tabs:
+      - element-list: Al recibir tu chequera revísala delante del funcionario bancario, verifica los datos de tu cuenta y que no falte ningún cheque.
+      - element-list: Una vez verificada tu chequera, firma el acuse de recibo y resguárdala en un lugar seguro fuera del alcance de terceros.
+      - element-list: No permitas que extraños te ayuden a elaborar tus cheques o cobrarlos en taquilla.
+      - element-list: Verifica que el monto escrito en el cheque y solicitado en taquilla, es exactamente igual al entregado por el funcionario bancario.
+      - element-list: Evita firmar cheques en blanco, al portador o con datos incompletos.
+      - element-list: Destruye los cheques anulados y deja registro en tu talonario.
+      - element-list: Evita conversar en sitios públicos o concurridos sobre las transacciones financieras que piensas realizar en las taquillas del Banco.
+      - element-list: Cuenta y guarda el dinero que solicitas antes de retirarte de la taquilla.

@@ -1,0 +1,35 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Centro de Atención Bancamiga'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Centro de atención Bancamiga (CAB) 0501-TUBANCA (8822622)'
+
+
+text-title: "Centro de Atención Bancamiga"
+text-about: "En el Centro de Atención Telefónica de Bancamiga brindamos atención inmediata a nuestros clientes y a los establecimientos comerciales, además, del servicio telefónico para efectuar tus consultas a través del (0212) 8220701 o (0212) 8220702 en horario corrido de Lunes a Domingo las 24 horas del día.</br>
+
+También, puedes realizar tus transacciones de una forma cómoda, rápida y segura, conectándote a nuestra página web www.bancamiga.com mediante nuestro servicio Bancamiga en línea.</br>
+
+En Bancamiga siempre cuentas con servicios personalizados y de calidad. Visita cualquiera de nuestras Agencias para obtener mayor información sobre las posibilidades que te permitirán invertir efectivamente tu dinero."
+
+list-about:
+  - title: Ventajas
+    item-description: Ideal para que movilices tu dinero o el de tu negocio de forma segura.
+  - item-description: Disfruta de este servicio cada vez que lo necesites como medio de pago seguro y confiable con cargo a tu cuenta
+  - item-description: La emisión de cheques de gerencia se rige de acuerdo a las estipulaciones legales y de seguridad emitidas por el Sistema Financiero y por el Banco a tales efectos.
+  - item-description: Los cheques emitidos podrán ser depositados en cualquiera de las instituciones financieras, los plazos de disponibilidad de fondos dependerán del resultado del proceso de compensación.
+  - item-description: Los clientes podrán cobrar los Cheques de Gerencia directamente a través de la Red de Agencias de Bancamiga.
+  - item-description: Los cheques podrán ser conformados llamando a nuestro Centro de Atención Bancamiga a través del 0501 TUBANCA (8822622).
+
+image-about:
+  - image: /images/aboutsliders/aboutme/sliders/foto1.png
+    description: Images-1
+  - image: /images/aboutsliders/aboutme/sliders/foto2.png
+    description: Images-2
+  - image: /images/aboutsliders/aboutme/sliders/foto3.png
+    description: Images-3
+
+next: 'container-about'

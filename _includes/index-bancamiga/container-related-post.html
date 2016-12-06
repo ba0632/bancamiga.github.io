@@ -1,0 +1,41 @@
+<h3 class="mb30 title-underblock custom">Noticias Recientes</h3>
+<div class="blog-related-carousel owl-carousel small-nav">
+    {% for post in site.posts %}
+    <article class="entry entry-box">
+        <div class="entry-media">
+            <figure>
+                <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+                    <img src="{{ post.images | prepend: site.baseurl | prepend: site.url }}" alt="Entry Title">
+                </a>
+            </figure>
+        </div><!-- End .entry-media -->
+
+        <div class="entry-content-wrapper">
+            <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+              <span class="entry-date">{{ post.date | date: "%-d" }}<span>{{ post.date | date: "%b" }}</span></span>
+            </time>
+            <span class="entry-format"><i class="fa fa-file-image-o"></i></span>
+
+            <h2 class="entry-title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></h2>
+
+
+            <div class="entry-content">
+                <p>{{ post.content | truncate:220  }} </p>
+            </div><!-- End .entry-content -->
+        </div><!-- End .entry-content-wrapper -->
+
+
+        <footer class="entry-footer clearfix">
+            <span class="entry-cats">
+                <span class="entry-label"><i class="fa fa-tag"></i></span>
+                {% for cat in post.categories %}
+                <a href="{{ "/indice/#" | append: cat | downcase | prepend: site.baseurl | prepend: site.url }}">{{ cat }}</a> &nbsp;
+                {% endfor %}
+
+            </span><!-- End .entry-tags -->
+
+            <a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" class="entry-readmore text-right">Leer más<i class="fa fa-angle-right"></i></a>
+        </footer>
+    </article>
+    {% endfor %}
+</div><!-- End .blog-related-carousel -->

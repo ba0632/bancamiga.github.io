@@ -1,0 +1,30 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+---
+
+<div class="mb70 mb50-xs"></div><!-- space -->
+<div class="mb70 mb50-xs"></div><!-- space -->
+<div class="mb20 mb50-xs"></div><!-- space -->
+<div class="page-header greenContainer larger larger-desc">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="greenContainer" itemprop="name headline">{{ site.data.g.title-404 }}</h1>
+                <p class="page-header-desc">{{ site.data.g.subtitle-404 | truncate:80 }}</p>
+            </div><!-- End .col-md-6 -->
+            <div class="col-md-6">
+                <ol class="breadcrumb">
+                    <li><a href="{{ "/index.html" | prepend: site.baseurl | prepend: site.url }}">Home</a></li>
+                    <li class="active">{{ site.data.g.code-error-404 }}</li>
+                </ol>
+            </div><!-- End .col-md-6 -->
+        </div><!-- End .row -->
+    </div><!-- End .container -->
+</div><!-- End .page-header -->
+{% include index-bancamiga/error/g-error.html
+  code=site.data.g.code-error-404
+  subtitle=site.data.g.subtitle-404
+  text-error=site.data.g.text-error-404
+%}

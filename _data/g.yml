@@ -1,0 +1,13 @@
+home-link-text: 'www.bancamiga.com'
+home-link: 'http://www.bancamiga.com'
+copyright-text: '&copy; Copyright 2016 BANCAMIGA Banco Microfinanciero C.A. RIF J-31628759-9.'
+
+title-404: 'Error 404'
+subtitle-404: 'There is no page in here.. Go somewhere else..'
+code-error-404: '404'
+text-error-404: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos animi, enim ullam consequatur ad ipsa quaerat voluptatem. Nulla similique assumenda alias perferendis voluptatibus voluptates neque voluptatem nesciunt, atque suscipit unde.'
+
+title-403: 'Error 403'
+subtitle-403: 'Directory access forbidden'
+code-error-403: '403'
+text-error-403: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos animi, enim ullam consequatur ad ipsa quaerat voluptatem. Nulla similique assumenda alias perferendis voluptatibus voluptates neque voluptatem nesciunt, atque suscipit unde.'

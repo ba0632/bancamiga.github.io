@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="title-underblock custom mb30">{{ include.title-seccion }}</h2>
+                <div class="panel-group" role="tablist" aria-multiselectable="true">
+                  {% for item in include.preguntas-frecuentes %}
+                    <div class="panel panel-border-tb">
+                        <div class="panel-heading" role="tab" id="{{ item.id1-collapse }}">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" href="#{{ item.id2-collapse }}" aria-expanded="false" aria-controls="{{ item.id2-collapse }}">
+                                    <span class="panel-icon"></span>{{  item.name }}
+                                </a>
+                            </h4>
+                        </div><!-- End .panel-heading -->
+                        <div id="{{ item.id2-collapse }}" {% if forloop.first %}class="panel-collapse collapse in"{%else%}class="panel-collapse collapse"{% endif%} role="tabpanel" aria-labelledby="{{ item.id1-collapse }}">
+                            <div class="panel-body">
+                                {{ item.text-collapse }}
+                            </div><!-- End .panel-body -->
+                        </div><!-- End .panel-collapse -->
+                    </div><!-- End .panel -->
+                    {% endfor %}
+                </div><!-- End .panel-group -->
+        </div><!-- End .col-md-12 -->
+    </div><!-- End .row -->
+</div><!-- End .container -->

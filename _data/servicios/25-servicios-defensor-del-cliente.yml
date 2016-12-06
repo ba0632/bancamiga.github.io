@@ -1,0 +1,37 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Defensor del Cliente y Usuario Bancario'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Es la figura ante la cual ustedes podrían acudir,</br> para tramitar todos los reclamos que fueron presentados </br>a la Unidad de Atención al Cliente y que resultaron improcedentes.'
+
+
+text-title: "Defensor del Cliente y Usuario Bancario"
+text-about: "El Defensor del Cliente y Usuario Bancario de Bancamiga Banco Microfinanciero, C.A. es la figura ante la cual ustedes podrían acudir, para tramitar todos los reclamos que fueron presentados a la Unidad de Atención al Cliente y que resultaron improcedentes."
+
+list-about:
+  - title: ¿Quién es el Defensor del Cliente y Usuario Bancario?
+    item-description: "De acuerdo a lo establecido en las “Normas Relativas a la Protección de los Usuarios y Usuarias  de los Servicios Financieros”, contenidas en la Resolución 063.15 del 12 de junio de 2015 y publicada en la Gaceta Oficial de la República Bolivariana de Venezuela No. 40.809 de fecha 14 de diciembre de 2015, Bancamiga, tiene a disposición de todos sus clientes y usuarios la Defensoría del Cliente y Usuario Bancario. La cual es una instancia formal de carácter objetivo e independiente. Es una unidad revisora en esa misma primera instancia, superior jerárquico a la Unidad de Atención al Cliente cuya función principal es revisar la procedencia o no de los reclamos o quejas que  formulen los clientes, usuarios y usuarias que sean declaradas improcedentes.<br><br>"
+  - title: Funciones del Defensor del Cliente y Usuario Bancario
+    item-description: "Tal como lo establece la Resolución 063.15:</br>
+    <i>“El Defensor del Cliente y Usuario Bancario y su Suplente, ejercerán sus funciones de manera objetiva e imparcial con absoluta independencia y con total autonomía en cuanto a los criterios y directrices a aplicar.”</i>"
+  - item-description: "El Defensor del Cliente y Usuario Bancario, tiene entre sus funciones tramitar y resolver las solicitudes de reconsideración, presentadas por los clientes, usuarios y usuarias, de los casos declarados improcedentes por la Unidad de Atención al Cliente."
+  - item-description:  "Al Defensor del Cliente y Usuario Bancario, le corresponde velar por los derechos  e intereses de los clientes y usuarios de Bancamiga que recurran a él, procurando que las relaciones entre ustedes y el Banco  se desarrollen en todo momento de conformidad con los principios éticos, la buena fe, la equidad, la justicia y la confianza recíproca.<br><br>"
+  - title: ¿Cuándo los clientes y usuarios pueden acudir al Defensor del Cliente y Usuario Bancario?
+    item-description: "Cuando consideren que la decisión de Bancamiga, a través de la Unidad de Atención al Cliente, haya sido incorrecta, injusta o no ajustada a derecho, dando lugar a una respuesta que resulte no procedente, sobre el reclamo presentado.<br><br>"
+  - title: ¿Qué reclamos no son de su competencia?
+    item-description: Los derivados de las relaciones entre instituciones y sus empleados.
+  - item-description: Los derivados de las relaciones entre instituciones y sus accionistas.
+  - item-description: Las decisiones de la institución, respecto a conceder o no un préstamo; efectuar o no cualquier contrato, o una operación o servicio concreto con personas determinadas; así como, sus condiciones o modalidades.  
+
+image-about:
+  - image: /images/aboutsliders/aboutme/sliders/foto1.png
+    description: Images-1
+  - image: /images/aboutsliders/aboutme/sliders/foto2.png
+    description: Images-2
+  - image: /images/aboutsliders/aboutme/sliders/foto3.png
+    description: Images-3
+
+next: 'container-about'

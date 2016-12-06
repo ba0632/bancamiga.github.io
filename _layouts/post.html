@@ -1,0 +1,27 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+---
+
+{%
+    include index-bancamiga/g-static-img.html
+    image=site.data.60-noticias.image
+    data-title=site.data.60-noticias.data-title
+    data-image=site.data.60-noticias.data-image
+    data-x-title=site.data.60-noticias.data-x-title
+    data-y-title=site.data.60-noticias.data-y-title
+    title=site.data.60-noticias.title
+    data-x-subtitle=site.data.60-noticias.data-x-subtitle
+    data-y-subtitle=site.data.60-noticias.data-y-subtitle
+    subtitle=site.data.60-noticias.subtitle
+%}
+<div class="mb50"></div><!-- space -->
+{% include index-bancamiga/container-black-header.html %}
+<div class="container">
+    <div class="row">
+      {% include index-bancamiga/container-detail-news.html %}
+      {% include index-bancamiga/container-related-post.html %}
+    </div>
+</div>
+<div class="mb20"></div><!-- space -->

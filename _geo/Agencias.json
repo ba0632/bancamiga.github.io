@@ -1,0 +1,121 @@
+{
+  "AgenciasBancamiga": [{
+      "Agencia": [{
+        "Nombre": "La Castellana",
+        "Direccion": "Av. Francisco de Miranda con Av. Eugenio Mendoza, Edif. Sede Gerencial La Castellana, PB, Urb. La Castellana. Caracas, Venezuela.",
+        "Telefonos": "02122018742 / 02122018743",
+        "Latitud": 10.4950815,
+        "Longitud": -66.850846
+      }, {
+        "Nombre": "Sabana Grande",
+        "Direccion": "Av. Francisco Solano López, con calle Pascual Navarro, Edificio San Germán, Planta Baja, Local 6. Caracas.",
+        "Telefonos": "02127625304 / 02127626946",
+        "Latitud": 10.4961491,
+        "Longitud": -66.8822296
+      }, {
+        "Nombre": "Cementerio",
+        "Direccion": "Edificio Perla, Nro. 3, Planta Baja, entre Calle Real de Prados de María y la Avenida Principal del Cementerio, Caracas.",
+        "Telefonos": "02126321955 / 02126322887",
+        "Latitud": 10.4848424,
+        "Longitud": -66.9105584
+      }, {
+        "Nombre": "Palo Verde",
+        "Direccion": "Centro Comercial Palo Verde Plaza, Nivel 2, Local 2-08, Palo Verde, Petare, Caracas.",
+        "Telefonos": "02122512749 / 02122514435",
+        "Latitud": 10.4785189,
+        "Longitud": -66.7972351
+      }, {
+        "Nombre": "Parque Humboldt",
+        "Direccion": "Centro Comercial Parque Humboldt, PB Locales 8 y 9, Urb. Prados del Este. Código Postal 1080. Caracas.",
+        "Telefonos": "02129771694 / 02129773114",
+        "Latitud": 10.4504443,
+        "Longitud": -66.8730927
+      }, {
+        "Nombre": "Propatria",
+        "Direccion": "Centro Comercial Propatria, Nivel 1, Urbanización Casalta, Local 4-E, Jurisdicción de la Parroquia Sucre, Municipio Libertador del Distrito Capital. Código Postal 1030.",
+        "Telefonos": "02128714325 / 02128717629 / 02128713127",
+        "Latitud": 10.5038018,
+        "Longitud": -66.9531415
+      }, {
+        "Nombre": "Ibarras",
+        "Direccion": "Av. Urdaneta, Esquina de Ibarras, Edificio Pasaje La Seguridad local N°3, Caracas.",
+        "Telefonos": "02125650243",
+        "Latitud": 10.3451274,
+        "Longitud": -67.0421113
+      }, {
+        "Nombre": "Los Teques",
+        "Direccion": "Avenida La Hoyada, Centro Comercial La Hoyada, Local 329, Municipio Guaicaipuro, Los Teques 1201, Edo. Miranda.",
+        "Telefonos": "02122276082",
+        "Latitud": 10.3451274,
+        "Longitud": -67.0421113
+      }, {
+        "Nombre": "Charallave Sur",
+        "Direccion": "Edificio Valory, Piso 2, Letra 26-C, Av. Bolívar 2, entre Calles 5 y 6 (Frente al Terminal de Pasajeros), Charallave, Edo. Miranda.",
+        "Telefonos": "02392480711 / 02392460848",
+        "Latitud": 10.2367871,
+        "Longitud": -66.858935
+      }, {
+        "Nombre": "Maiquetía",
+        "Direccion": "Centro Comercial Empresarial Puerta del Sol, Av. Principal de Maiquetía, frente a la jefatura, Local P1-01, Edo. Vargas.",
+        "Telefonos": "02126197953",
+        "Latitud": 10.5949824,
+        "Longitud": -66.950882
+      }, {
+        "Nombre": "Santa Teresa del Tuy",
+        "Direccion": "Urbanización Las Flores, Calle Los Claveles, Parcela 24, Edificio Minicentro Empresarial Las Flores, Local B, Nivel Planta Baja al lado del Liceo Lino Clemente, Santa Teresa del Tuy, Estado Miranda.",
+        "Telefonos": "02395149744",
+        "Latitud": 10.2314076,
+        "Longitud": -66.6681249
+      }, {
+        "Nombre": "Guatire",
+        "Direccion": "Centro Comercial La Parada, local nro. P1-4, Nivel Planta, Primer Piso Comercial, Guatire, Municipio Zamora, Estado Miranda. Código postal 1221.",
+        "Telefonos": "02122275943 / 02124162268 / 02126197953",
+        "Latitud": 10.4653822,
+        "Longitud": -66.5693594
+      }, {
+        "Nombre": "Galería Plaza",
+        "Direccion": "Avenida Bolívar con Avenida Miranda y Calle Libertad, Ciudad Comercial Galería Plaza, Nivel Dos, Locales N2-22, N2-23 y N2-24, Maracay, Edo. Aragua.",
+        "Telefonos": "02432460741 / 02432470690",
+        "Latitud": 10.2522062,
+        "Longitud": -67.6069801
+      }, {
+        "Nombre": "Bulevar Plaza",
+        "Direccion": "Centro Bulevar Plaza, Calle Nro. 100, Constitución / Calle Comercio, Nivel Plaza, Locales C-8 y C-9, Valencia, Edo. Carabobo.",
+        "Telefonos": "02418584717 / 02418583442",
+        "Latitud": 10.1823534,
+        "Longitud": -68.004274
+      }, {
+        "Nombre": "Valencia Palotal",
+        "Direccion": "Local Nro. 1, Avenida Las Ferias, Nro. 70-95, Parroquia Santa Rosa, Valencia, Edo. Carabobo, Frente Estación Metro Palotal.",
+        "Telefonos": "02414150298",
+        "Latitud": 10.1598332,
+        "Longitud": -68.0005795
+      }, {
+        "Nombre": "Guaparo",
+        "Direccion": "Centro Comercial Guaparo, nivel Guaparo local PA-27. Municipio Valencia. Código Postal 2005 Valencia - Edo. Carabobo.",
+        "Telefonos": "02418242684 / 02418215445 / 02418213406 / 02418242599",
+        "Latitud": 10.2285587,
+        "Longitud": -68.0118877
+      }, {
+        "Nombre": "Barquisimeto",
+        "Direccion": "Centro Comercial Bekah Center, Carrera 19 con Calle 28, Local 22, Barquisimeto, Estado Lara.",
+        "Telefonos": "02512320339 / 02512324067",
+        "Latitud": 10.0660623,
+        "Longitud": -69.3190667
+      }, {
+        "Nombre": "Upata",
+        "Direccion": "Avenida Raúl Leoní al lado de Farmatodo. Código Postal 8052. Estado Bolívar.",
+        "Telefonos": "02882213205 / 02882210640",
+        "Latitud": 8.0075844,
+        "Longitud": -62.3938366
+      }, {
+        "Nombre": "Puerto Ordaz",
+        "Direccion": "Carretera Upata, Centro Comercial Topacio locales N°5 y 6 planta alta, Puerto Ordaz.",
+        "Telefonos": "02867142998",
+        "Latitud": 8.314593,
+        "Longitud": -62.7160567
+      }]
+    }
+
+  ]
+}

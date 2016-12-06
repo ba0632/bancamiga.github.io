@@ -1,0 +1,65 @@
+<div class="col-md-9">
+    <h2 class="title-underblock custom">Noticias</h2>
+    {% for item in paginator.posts %}
+    <article class="entry">
+        <div class="entry-media">
+            <figure>
+                <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
+                    <img class="img-responsive imagenLista" src="{{ item.images | prepend: site.baseurl | prepend: site.url }}" alt="{{ item.title }}">
+                </a>
+            </figure>
+        </div><!-- End .entry-media -->
+
+
+        <time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">
+          <span class="entry-date">{{ item.date | date: "%-d" }}<span>{{ item.date | date: "%b" }}</span></span>
+        </time>
+        <span class="entry-format"><i class="fa fa-file-image-o"></i></span>
+        <h2 class="entry-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+
+        <div class="entry-content">
+            <p>{{ item.content | truncate:450  }}</p>
+        </div><!-- End .entry-content -->
+
+        <footer class="entry-footer clearfix">
+            <a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}" class="entry-readmore text-right">{{ item.text-read-more }}<i class="fa fa-angle-right"></i></a>
+        </footer>
+
+    </article>
+    {% endfor %}
+
+    <nav class="pagination-container text-right">
+        <ul class="pagination">
+            {% if paginator.previous_page %}
+            <li>
+                <a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}" aria-label="Anterior">
+                    <span aria-hidden="true"><i class="fa fa-angle-left"></i></span>
+                </a>
+            </li>
+            {% endif %}
+            {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                <li class="active">
+                    <a href="#">{{ page }}</a>
+                </li>
+                {% elsif page == 1 %}
+                <li>
+                    <a href="{{ site.paginate_path | prepend: site.url | replace: '//', '/' | replace: 'page:num', "" }}">{{ page }}</a>
+                </li>
+                {% else %}
+                <li>
+                    <a href="{{ site.paginate_path | prepend: site.url | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            {% if paginator.next_page %}
+            <li>
+                <a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}" aria-label="Siguiente">
+                    <span aria-hidden="true"><i class="fa fa-angle-right"></i></span>
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+    </nav>
+
+</div><!-- End .col-md-9 -->

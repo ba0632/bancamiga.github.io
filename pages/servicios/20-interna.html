@@ -1,0 +1,33 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+permalink: /conocenos/
+---
+
+
+{%
+    include index-bancamiga/g-static-img.html
+    image=site.data.20-interna.image
+    data-title=site.data.20-interna.data-title
+    data-image=site.data.20-interna.data-image
+    data-x-title=site.data.20-interna.data-x-title
+    data-y-title=site.data.20-interna.data-y-title
+    title=site.data.20-interna.title
+    data-x-subtitle=site.data.20-interna.data-x-subtitle
+    data-y-subtitle=site.data.20-interna.data-y-subtitle
+    subtitle=site.data.20-interna.subtitle
+    next=site.data.20-interna.next
+%}
+  <div class="mb40"></div><!-- space -->
+  {% include index-bancamiga/i01-container-about.html
+    title-interna=site.data.20-interna.text-title
+    description-interna=site.data.20-interna.text-about
+    list-images=site.data.20-interna.image-about
+    %}
+  {% include index-bancamiga/i02-container-tabs.html
+      list-tabs=site.data.20-interna.tabs
+  %}
+  <div class="mb10"></div><!-- space -->
+  {% include index-bancamiga/g-menu-links.html %}
+  <div class="mb10"></div><!-- space -->

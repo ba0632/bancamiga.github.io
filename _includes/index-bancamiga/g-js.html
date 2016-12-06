@@ -1,0 +1,49 @@
+<!-- Smoothscroll -->
+<script src="{{ "/js/smoothscroll.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.hoverIntent.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.nicescroll.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/waypoints.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/waypoints-sticky.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.debouncedresize.js"> | prepend: site.baseurl | prepend: site.url }}"</script>
+<script src="{{ "/js/retina.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/owl.carousel.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jflickrfeed.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/twitter/jquery.tweet.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/skrollr.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.countTo.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/isotope.pkgd.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.magnific-popup.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.themepunch.tools.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.themepunch.revolution.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/wow.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.validate.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/contact.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/main.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/mediaelement-and-player.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script>
+    (function () {
+        "use strict";
+        // Slider Revolution
+        jQuery('#revslider').revolution({
+            delay:8000,
+            startwidth:1170,
+            startheight:500,
+            fullWidth:"on",
+            fullScreen:"on",
+            hideTimerBar: "off",
+            spinner:"spinner4",
+            navigationStyle: "preview4",
+            soloArrowLeftHOffset:20,
+            soloArrowRightHOffset:20
+        });
+    }());
+</script>
+<script type="text/javascript">
+  SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  searchResultTemplate: '<li class="search"><a href="{url}">{title}</a></li>',
+  json: "{{ "/search.json" | prepend: site.baseurl | prepend: site.url }}"
+  })
+</script>

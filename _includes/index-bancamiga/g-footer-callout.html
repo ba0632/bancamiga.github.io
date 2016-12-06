@@ -1,0 +1,19 @@
+<div class="callout no-border larger callOutHome">
+    <div class="container">
+        <div class="callout-wrapper">
+            <div class="callout-left">
+                <h2 class="callout-title">{{ include.title-footer }}</h2>
+                <p class="callout-desc">{{ include.subtitle-footer }}</p>
+            </div><!-- End .callout-left -->
+            {% if include.text-button %}
+            <div class="callout-right">
+              <a href="{{ include.link-footer | prepend: site.baseurl | prepend: site.url  }}">
+              <button class="btn btn-dark btn-border radius-lger min-width">
+                {{ include.text-button }}<span class="fa fa-arrow-right" style="margin: 10px;"></span>
+              </button>
+              </a>
+              </div><!-- End .callout-right -->
+            {% endif%}
+        </div><!-- End .callout-wrapper -->
+    </div><!-- End .container -->
+</div><!-- End .callout -->

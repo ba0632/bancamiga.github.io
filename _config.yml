@@ -1,0 +1,210 @@
+# Where things are
+source:      .
+destination: ./_site
+plugins_dir: ./_plugins
+layouts_dir: ./_layouts
+data_dir:    ./_data
+# collections: null
+
+# Handling Reading
+#safe:         false
+#include:      [".htaccess"]
+#exclude:      []
+#keep_files:   [".git", ".svn"]
+#encoding:     "utf-8"
+#markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      true
+unpublished: false
+
+# Plugins
+whitelist: []
+gems:      [jekyll-paginate]
+
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+# Outputting
+permalink: none
+#permalink:     /noticias/:title.html
+paginate:      2
+paginate_path: /noticias/page:num
+timezone:      null
+
+quiet:    false
+defaults: []
+
+# Markdown Processors
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+  coderay:
+    coderay_wrap:              div
+    coderay_line_numbers:      inline
+    coderay_line_number_start: 1
+    coderay_tab_width:         4
+    coderay_bold_every:        10
+    coderay_css:               style
+
+include: ['_pages']
+exclude: ['README.md', 'LICENSE']
+
+collections:
+  geo:
+    output: true
+    permalink: /agencias/:name/
+
+url: "http://bancamiga.github.io" # the base hostname & protocol for your site
+#baseurl: "/pagina-comercial-bancamiga"
+#url: ""
+#baseurl: ""
+
+
+prose:
+  ignore: ['_config.yml',
+  '_layouts',
+  'css',
+  'fonts',
+  'js',
+  'robots.txt',
+  'search.json',
+  '_includes',
+  '.gitignore',
+  'noticias'
+  ]
+  siteurl: "bancamiga.github.io"
+  media: 'images'
+  metadata:
+    _geo:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "agencia"
+      - name: "style-css"
+        field:
+          element: "hidden"
+          value: "style-bancamiga2.css"
+      - name: "icon-marker"
+        field:
+          element: "textarea"
+          label: "Ingrese la ruta de la imagen a utilizar:"
+          placeholder: "images/..."
+          value: ""
+      - name: "address"
+        field:
+          element: "text"
+          label: "Ingrese la dirección de la agencia:"
+          placeholder: "Dirección de la agencias Bancamiga"
+          value: ""
+      - name: "name"
+        field:
+          element: "textarea"
+          label: "Ingrese el nombre de la agencia:"
+          placeholder: ""
+          value: ""
+      - name: "office_hours"
+        field:
+          element: "textarea"
+          label: "Ingrese el horario de atención de la agencia:"
+          placeholder: "8:30am - 3:30pm"
+          value: ""
+      - name: "phones"
+        field:
+          element: "text"
+          label: "Ingrese los números de atención de la agencia:"
+          placeholder: ""
+          value: ""
+      - name: "latitude"
+        field:
+          element: "number"
+          label: "Ingrese el valor de la latitud:"
+          placeholder: ""
+          value: ""
+          type: number
+      - name: "longitude"
+        field:
+          element: "text"
+          label: "Ingrese el valor de la longitud:"
+          placeholder: ""
+          value: ""
+      - name: "office_category"
+        field:
+          element: "textarea"
+          label: "Ingrese la categoria de la agencia:"
+          placeholder: "Central, occidental, los llanos etc."
+          value: ""
+      - name: "office_number"
+        field:
+          element: "number"
+          label: "Ingrese el número de la oficina:"
+          placeholder: "Central, occidental, los llanos etc."
+          value: ""
+          type: number
+    _posts:
+      - name: "title"
+        field:
+          element: "textarea"
+          label: "Ingrese el título de su publicación:"
+          placeholder: ""
+          value: ""
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "style-css"
+        field:
+          element: "hidden"
+          value: "style-bancamiga2.css"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Ingrese la fecha de la Publicación"
+          value: ""
+      - name: "images"
+        field:
+          element: "textarea"
+          label: "Ingrese la ruta de la imagen a utilizar:"
+          placeholder: "images/..."
+          value: ""
+      - name: "images-home"
+        field:
+          element: "textarea"
+          label: "Ingrese la ruta de la imagen a utilizar:"
+          placeholder: "images/..."
+          value: ""
+      - name: "categories"
+        field:
+          element: "textarea"
+          label: "Ingrese la categoria de la noticia:"
+          placeholder: ""
+          value: ""
+      - name: "text-read-more"
+        field:
+          element: "textarea"
+          label: "Ingrese la etiqueta a utilizar:"
+          placeholder: ""
+          value: ""
+    pages:
+      - name: "permalink"
+        field:
+          element: "textarea"
+          label: "Ingrese el link de la página:"
+          placeholder: ""
+          value: ""

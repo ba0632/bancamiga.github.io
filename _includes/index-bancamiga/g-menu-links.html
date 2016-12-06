@@ -1,0 +1,12 @@
+<div class="btn-group btn-group-justified">
+{% for links in site.data.10-home.links-bar %}
+  <a href="{{ links.link  | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary">
+    <div>
+      <span class="{{ links.link-icon }}"></span>
+    </div>
+    <div class="hidden-sm hidden-xs">
+      <span> {{ links.link-text }}</span>
+    </div>
+  </a>
+{% endfor %}
+</div>

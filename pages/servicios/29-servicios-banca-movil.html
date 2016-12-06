@@ -1,0 +1,32 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+permalink: /banca-movil/
+---
+
+
+{%
+    include index-bancamiga/g-static-img.html
+    image=site.data.servicios.29-servicios-banca-movil.image
+    data-title=site.data.servicios.29-servicios-banca-movil.data-title
+    data-image=site.data.servicios.29-servicios-banca-movil.data-image
+    data-x-title=site.data.servicios.29-servicios-banca-movil.data-x-title
+    data-y-title=site.data.servicios.29-servicios-banca-movil.data-y-title
+    title=site.data.servicios.29-servicios-banca-movil.title
+    data-x-subtitle=site.data.servicios.29-servicios-banca-movil.data-x-subtitle
+    data-y-subtitle=site.data.servicios.29-servicios-banca-movil.data-y-subtitle
+    subtitle=site.data.servicios.29-servicios-banca-movil.subtitle
+    next=site.data.servicios.29-servicios-banca-movil.next
+%}
+  <div class="mb40"></div><!-- space -->
+  {% include index-bancamiga/i01-container-about.html
+    title-interna=site.data.servicios.29-servicios-banca-movil.text-title
+    description-interna=site.data.servicios.29-servicios-banca-movil.text-about
+    list-about=site.data.servicios.29-servicios-banca-movil.list-about
+    list-images=site.data.servicios.29-servicios-banca-movil.image-about
+    %}
+
+  <div class="mb40"></div><!-- space -->
+  {% include index-bancamiga/g-menu-links.html %}
+  <div class="mb10"></div><!-- space -->

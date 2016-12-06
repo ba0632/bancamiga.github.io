@@ -1,0 +1,33 @@
+<div id="revslider-container">
+    <div id="revslider">
+        <ul>
+                <!--imagen-1-->
+            <li data-transition="fade" data-slotamount="8" data-masterspeed="800" data-title="{{ include.data-title }}" data-thumb="{{ include.data-image | prepend: site.baseurl | prepend: site.url }}">
+                <!-- background image -->
+                <img src="{{ "/images/revslider/dummy.png" | prepend: site.baseurl | prepend: site.url }}"  alt="slidebg1" data-lazyload="{{ include.data-image | prepend: site.baseurl | prepend: site.url }}" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+                <div class="tp-caption rev-title lfb ltt"
+                    data-x="{{ include.data-x-title }}"
+                    data-y="{{ include.data-y-title }}"
+                    data-speed="1000"
+                    data-start="900"
+                    data-easing="Power3.easeInOut"
+                    data-endspeed="400"
+                    style="z-index: 10"><strong>{{ include.title }}</strong>
+                    <hr>
+                </div>
+
+                <div class="tp-caption rev-subtitle lfb ltt"
+                    data-x="{{ include.data-x-subtitle }}"
+                    data-y="{{  include.data-y-subtitle }}"
+                    data-speed="1000"
+                    data-start="1000"
+                    data-easing="Power3.easeInOut"
+                    data-endspeed="600"
+                    style="z-index: 6">{{ include.subtitle }}
+                </div>
+              </li>
+        </ul>
+    </div><!-- End #revslider -->
+    <a href="#{{ include.next }}" class="scroll-btn light" data-offset="-55" data-0="opacity:1" data-top-bottom="opacity:0;" title="Siguiente"><span></span></a>
+</div><!-- End #revslider-container -->

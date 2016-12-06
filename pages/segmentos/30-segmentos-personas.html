@@ -1,0 +1,33 @@
+---
+layout: 10-home
+revslider-css: "revslider-index2.css"
+style-css: "style-bancamiga2.css"
+permalink: /personas/
+---
+
+{%
+  include index-bancamiga/g-static-img.html
+  image=site.data.30-segmentos-personas.image
+  data-title=site.data.30-segmentos-personas.data-title
+  data-image=site.data.30-segmentos-personas.data-image
+  data-x-title=site.data.30-segmentos-personas.data-x-title
+  data-y-title=site.data.30-segmentos-personas.data-y-title
+  title=site.data.30-segmentos-personas.title
+  data-x-subtitle=site.data.30-segmentos-personas.data-x-subtitle
+  data-y-subtitle=site.data.30-segmentos-personas.data-y-subtitle
+  subtitle=site.data.30-segmentos-personas.subtitle
+%}
+<div class="mb40"></div><!-- space -->
+{% include index-bancamiga/ss02-productos.html
+  categories=site.data.30-segmentos-personas.categories
+  %}
+<div class="mb10"></div><!-- space -->
+{% include index-bancamiga/g-menu-links.html %}
+<div class="mb10"></div><!-- space -->
+{%
+  include index-bancamiga/g-footer-callout.html
+  title-footer=site.data.30-segmentos-personas.title-footer
+  subtitle-footer=site.data.30-segmentos-personas.subtitle-footer
+  text-button=site.data.30-segmentos-personas.text-button
+  link-footer=site.data.30-segmentos-personas.link-footer
+%}

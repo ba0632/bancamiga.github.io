@@ -1,0 +1,14 @@
+<div class="container service-group">
+    <div class="row">
+        {% for product in include.products %}
+        <a href="{{ product.link | prepend: site.baseurl | prepend: site.url }}">
+        <div class="col-sm-4 col-xs-6">
+          <div class="service vertical segmentos">
+            <img src="{{ product.image | prepend: site.baseurl | prepend: site.url }}"
+            style="height: 10em;"/>
+          </div>
+        </div><!-- End .col-sm-4 -->
+        </a>
+        {% endfor %}
+    </div>
+</div><!-- End .container -->

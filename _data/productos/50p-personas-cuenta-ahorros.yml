@@ -1,0 +1,88 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about4.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Cuenta de Ahorro'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Es el producto ideal para ti que deseas realizar<br>
+inversiones en un corto plazo a una taza<br>
+de interés competitiva.'
+next: next
+
+#tabs para descripción de un producto
+tabs-left:
+  - id-tabs: description1
+    icon-tabs: fa fa-home fa-2x
+    name-tabs: Descripción
+    content-tabs:
+      - element-list: Bancamiga te ofrece la cuenta de ahorros sin libreta que permite ahorrar y ganar intereses, con la ventaja de movilizar tu dinero cuando lo necesites.</br><h4 class="titleDescription mt40">Abre una Cuenta Ahorros hoy en tu agencia Bancamiga más cercana!</h4>
+  - id-tabs: caracteristica1
+    icon-tabs: fa fa-user fa-2x
+    name-tabs: Características
+    content-tabs:
+      - element-list: Sin monto mínimo de apertura.
+      - element-list: Genera intereses calculados sobre saldos diarios y abonados a fin de mes.
+      - element-list: Sin costo de mantenimiento.
+      - element-list: Su movilización no requiere libreta.
+      - element-list: Disponibilidad inmediata de los fondos.
+      - element-list: Genera referencias bancarias para futuros trámites.
+      - element-list: Afiliación sin costo al Servicio de Bancamiga en Línea donde podrás movilizar y consultar saldos cómodamente y en cualquier momento con tan sólo una conexión a Internet.
+      - element-list: Cuentas con el servicio telefónico para efectuar tus consultas a través del 0501 TUBANCA (8822622) (0212) 8220701 o (0212) 8220702 en horario corrido de Lunes a Domingo incluyendo los días feriados.
+      - element-list: Depósitos amparados por el Fondo de Garantía de Depósitos y Protección Bancaria (FOGADE).
+  - id-tabs: messages8
+    icon-tabs: fa fa-envelope fa-2x
+    name-tabs: Requisitos
+    content-tabs:
+      - element-list: Consignar los Recaudos en la Agencia Bancamiga de tu preferencia.
+      - element-list: Ser mayor de 14 años.
+      - element-list: Las personas entre 14 y 17 años de edad deberán contar con la presencia de su representante legal.
+      - element-list: Solicitar la apertura de la cuenta a través de cualquiera de nuestras agencias.
+  - id-tabs: Recaudos1
+    icon-tabs: fa fa-file fa-2x
+    name-tabs: Recaudos
+    content-tabs:
+      - element-list: Original y copia legible de la cédula de identidad vigente y laminada.
+      - element-list: Copia legible del Registro de Información Fiscal (RIF) vigente o Comprobante Digital del Registro Único de Información Fiscal (RIF).
+      - element-list: Copia de un (1) Recibo de servicio (agua, luz, teléfono o gas) a nombre del titular con la dirección de residencia o constancia de residencia emitida por la Jefatura Civil, Junta de Condominio o Consejo Comunal, con vigencia no mayor a tres (3) meses de emisión.
+      - element-list: Una (1) referencia bancaria original. En caso de no poseer una cuenta en otro banco, deberá llenar el formato de "Declaración Jurada de no poseer Referencia"
+      - element-list: "Una (1) referencia personal original (no familiar) legible. La misma deberá contener:"
+        recaudos:
+          - requisito: Número del documento de identidad.
+          - requisito: Acta de Nacimiento (a los fines de verificar la filiación entre el niño, niña, adolescente y el representante legal)
+          - requisito: Número telefónico fijo residencial (no celular) del emisor.
+          - requisito: Dirección completa del emisor, tiempo de conocerse y copia del documento de identidad vigente de la persona que la emite.
+          - title: "Todas las referencias deben contener:"
+            requisito: Dirección completa del emisor, tiempo de conocerse y copia del documento de identidad vigente de la persona que lo emite.
+          - requisito: Dirección y números fijos del banco, empresa o persona que la emite.
+          - requisito: Fecha de emisión menor a tres (3) meses.
+          - title: "Recaudos para Cuentas de Menores de Edad:"
+            requisito: Representante Legal: Los mismos recaudos que se solicitan para las Cuentas de Ahorro.
+          - requisito: Acta de Nacimiento (a los fines de verificar la filiación entre el niño, niña, adolescente y el representante legal)
+          - requisito: En caso de que el representante legal no sea su padre o madre, deberá consignar la decisión emitida por un Tribunal de la República Bolivariana de Venezuela, con competencia en materia de protección a los niños, niñas y adolescentes donde se designe al representante o tutor.
+  - id-tabs: Enlaces1
+    icon-tabs: fa fa-cogs fa-2x
+    name-tabs: Enlaces de Interes
+    content-tabs:
+      - element-list: <a href="http://www.bancamiga.com"> Montos de Apertura</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Tarifas</a>
+      - element-list: <a href="http://www.bancamiga.com"> Enlace de Tasas </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Términos y condiciones</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace para formatos, planillas y solicitudes </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace Preguntas Frecuentes</a>
+
+#Preguntas frecuentes
+title-seccion: Preguntas Frecuentes
+preguntas-frecuentes:
+  - name: ¿La Cuenta Corriente con Intereses posee intereses?
+    id1-collapse: headingOne5
+    id2-collapse: collapseOne5
+    text-collapse: Desde luego que sí..!!.
+  - name: ¿Cómo se movilizan este tipo de cuentas?
+    id1-collapse: headingTwo5
+    id2-collapse: collapseTwo5
+    text-collapse: Es movilizada a través de una chequera y con nuestra Banca por Internet Bancamiga en Línea.
+  - name: ¿Dónde Puedo adquirir este producto?
+    id1-collapse: headingThree5
+    id2-collapse: collapseThree5
+    text-collapse: En su agencia Bancamiga mas cercana.

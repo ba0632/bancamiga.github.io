@@ -1,0 +1,22 @@
+<div class="magazine-top-container larger">
+    <div class="owl-carousel magazine-top-carousel-lg center-nav center-nav-animate white-nav no-radius">
+        {% for post in site.posts %}
+        <article class="entry entry-overlay entry-block">
+            <div class="entry-media">
+                <figure>
+                    <a href="{{ post.url  | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title }}">
+                        <img src="{{ post.images-home  | prepend: site.baseurl | prepend: site.url }}" alt="{{ post.title }}">
+                    </a>
+                </figure>
+            </div><!-- End .entry-media -->
+
+            <div class="entry-overlay-meta">
+                <h2 class="entry-title"><a href="{{ post.url  | prepend: site.baseurl | prepend: site.url }}">{{ post.title | truncate: 60  }}</a></h2>
+                <span class="entry-overlay-date"><i class="fa fa-calendar"></i>{{ post.date | date: "%-d/%b" }}</span>
+                <span class="entry-separator">|</span>
+                <a href="#" class="entry-author"><i class="fa fa-user"></i>{{ post.author }}</a>
+            </div><!-- End .entry-overlay-meta -->
+        </article>
+        {% endfor %}
+    </div><!-- End .magazine-top-carousel -->
+</div><!-- End .magazine-top-container -->

@@ -1,0 +1,29 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Título de la Página'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Ingrese una breve descripción sobre su producto '
+
+
+text-title: "SMS Bancamiga"
+list-about:
+  - item-description: El servicio de mensajería de texto SMS Bancamiga envía notificaciones de las operaciones realizadas a través de Bancamiga en línea. Así podrás contar con una fuente de información rápida, cómoda y automática para asegurar un efectivo control sobre transacciones y prevenir cualquier intento posible fraude.<br><br>
+  - title: Ventajas
+    item-description: Mediante mensajes de texto SMS recibes información en línea de cualquier transacción, afiliación, cambio de clave, así como movimientos de tus cuentas en Bancamiga, directamente a tu teléfono celular.
+  - item-description: El envío de notificaciones a través de correo electrónico cuando realices transacciones a cambies tu perfil de seguridad
+  - item-description: Apóyanos en tu seguridad, si recibes algún mensaje y no has efectuado ninguna transacción  comunícate con nuestro Centro de Atención Bancamiga 0501 TUBANCA (8822622),  (0212) 8220701 o (0212) 8220702, disponible de lunes a viernes de 7:00 am a 9:00 pm y sábados de 8:00 am a 5:00 pm en horario corrido.<br><br>
+  - title: Requisitos
+    item-description: Debe ser Cliente de Bancamiga y estar afiliado al servicio Bancamiga en Línea.
+  - item-description: Tener registrado tu número de teléfono celular al momento de afiliarte a nuestro servicio Bancamiga En Línea.
+image-about:
+  - image: /images/aboutsliders/aboutme/sliders/foto1.png
+    description: Images-1
+  - image: /images/aboutsliders/aboutme/sliders/foto2.png
+    description: Images-2
+  - image: /images/aboutsliders/aboutme/sliders/foto3.png
+    description: Images-3
+
+next: 'container-about'

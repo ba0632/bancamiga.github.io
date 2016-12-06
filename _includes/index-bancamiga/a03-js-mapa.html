@@ -1,0 +1,70 @@
+
+<!-- Google map javascript api v3 -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiB-D628CrzVRk9HmoyErUJ2Sd01I1b4w"></script>
+
+<!-- Smoothscroll -->
+<script src="{{ "/js/smoothscroll.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.hoverIntent.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.nicescroll.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/waypoints.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/waypoints-sticky.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.debouncedresize.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/retina.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/owl.carousel.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/isotope.pkgd.min.js" | prepend: site.baseurl | prepend: site.url }}"</script>
+<script src="{{ "/js/skrollr.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.magnific-popup.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.countTo.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.backstretch.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/wow.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/jquery.validate.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/contact.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ "/js/main.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+
+<script>
+    (function () {
+        "use strict";
+
+        // Background
+        $(function () {
+            "use strict";
+            $.backstretch("{{ "/images/backgrounds/index30/4.png" | prepend: site.baseurl | prepend: site.url }}");
+        });
+
+        // Google Map
+        if (document.getElementById("map")) {
+            var locations = [
+                ['<div class="map-info-box"><ul class="contact-info-list"><li><span></span> {{ page.name}}</li><li><span><i class="fa fa-home fa-fw first-color"></i></span> {{ page.address}}</li><li><span><i class="fa fa-clock-o fa-fw first-color"></i></span> {{ page.office_hours}}</li><li><span><i class="fa fa-phone fa-fw first-color"></i></span> {{ page.phones}}</ul></div>', {{ page.latitude }}, {{ page.longitude }}, 9]
+            ];
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: new google.maps.LatLng({{ page.latitude }},{{ page.longitude }}),
+                scrollwheel: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            });
+
+            var infowindow = new google.maps.InfoWindow();
+
+
+            var marker, i;
+
+            for (i = 0; i < locations.length; i++) {
+              marker = new google.maps.Marker({
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map,
+                animation: google.maps.Animation.DROP,
+                icon: '{{ page.icon-marker | prepend: site.baseurl | prepend: site.url }}',
+              });
+
+              google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                return function() {
+                  infowindow.setContent(locations[i][0]);
+                  infowindow.open(map, marker);
+                }
+              })(marker, i));
+            }
+        }
+
+    }());
+</script>

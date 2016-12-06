@@ -1,0 +1,77 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about4.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Microcréditos'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: 'Es el producto ideal para ti que deseas realizar<br>
+inversiones en un corto plazo a una taza<br>
+de interés competitiva.'
+next: next
+
+#tabs para descripción de un producto
+tabs-left:
+  - id-tabs: description1
+    icon-tabs: fa fa-home fa-2x
+    name-tabs: Descripción
+    content-tabs:
+      - element-list: Son créditos concedidos a los usuarios del sistema microfinanciero, destinado a financiar actividades de producción, comercialización o servicios, cuya fuente principal de pago lo constituye el producto de los ingresos generados por dichas actividades. Ideal para emprendedores que ya cuentan con experiencia previa o tienen conocimiento en el negocio que desean iniciar.
+  - id-tabs: alcance1
+    icon-tabs: fa fa-user fa-2x
+    name-tabs: ¿Que podria hacer?
+    content-tabs:
+      - element-list: Adquirir vehículos de carga o transporte.
+      - element-list: Comprar maquinarias o herramientas.
+      - element-list: Equipar tu negocio con computadoras, impresoras, fotocopiadoras y equipos eléctricos en general.
+      - element-list: Adquirir mercancí­a, productos terminados y materia prima necesaria para tu negocio.
+      - element-list: Realizar mejoras y acondicionamiento de las instalaciones de tu negocio.
+      - element-list: Puedes hasta remodelar o iniciar tu negocio.
+  - id-tabs: caracteristica1
+    icon-tabs: fa fa-user fa-2x
+    name-tabs: Características
+    content-tabs:
+      - element-list: Destinado para capital de trabajo, adquisición de activos fijos y vehículos.
+      - element-list: Financiamiento hasta 36 meses. 
+      - element-list: Amortizaciones sin ninguna penalización.
+      - element-list: Pagos en cuotas mensuales y consecutivas, compuestas de capital e intereses.
+      - element-list: Garantías de acuerdo al destino de los fondos.
+      - element-list: Respuestas rápidas y oportunas a tu solicitud.
+      - element-list: Consulta del crédito cómodamente a través de nuestro servicio de Bancamiga en Línea con tan sólo una conexión a Internet. ¡Afíliate sin costo!
+      - element-list: Cuentas con el servicio telefónico para efectuar tus consultas a través del 0501 TUBANCA (8822622)  (0212) 8220701 o (0212) 8220702 en horario corrido de Lunes a Domingo incluyendo los días feriados.
+  - id-tabs: messages8
+    icon-tabs: fa fa-envelope fa-2x
+    name-tabs: Requisitos
+    content-tabs:
+      - element-list: Preferiblemente desarrollar una actividad económica propia de producción o de  comercialización.
+      - element-list: Prestación de servicio por lo menos durante un (1) año y en un domicilio comprobable.
+      - element-list: Poseer o abrir una Cuenta Corriente en Bancamiga para descontar las cuotas mensuales del crédito.
+      - element-list: Llenar la planilla de solicitud de Microcrédito.
+      - element-list: Consignar los recaudos solicitados según el tipo de cliente en la agencia más cercana.
+      - element-list: Solicita tu Microcrédito en la agencia Bancamiga más cercana, te asesoramos.
+  - id-tabs: Enlaces1
+    icon-tabs: fa fa-cogs fa-2x
+    name-tabs: Enlaces de Interes
+    content-tabs:
+      - element-list: <a href="http://www.bancamiga.com"> Montos de Apertura</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Tarifas</a>
+      - element-list: <a href="http://www.bancamiga.com"> Enlace de Tasas </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Términos y condiciones</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace para formatos, planillas y solicitudes </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace Preguntas Frecuentes</a>
+
+#Preguntas frecuentes
+title-seccion: Preguntas Frecuentes
+preguntas-frecuentes:
+  - name: ¿La Cuenta Corriente con Intereses posee intereses?
+    id1-collapse: headingOne5
+    id2-collapse: collapseOne5
+    text-collapse: Desde luego que sí..!!.
+  - name: ¿Cómo se movilizan este tipo de cuentas?
+    id1-collapse: headingTwo5
+    id2-collapse: collapseTwo5
+    text-collapse: Es movilizada a través de una chequera y con nuestra Banca por Internet Bancamiga en Línea.
+  - name: ¿Dónde Puedo adquirir este producto?
+    id1-collapse: headingThree5
+    id2-collapse: collapseThree5
+    text-collapse: En su agencia Bancamiga mas cercana.

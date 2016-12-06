@@ -1,0 +1,83 @@
+data-title: 'Image-1'
+data-image: '/images/aboutsliders/aboutme/about4.jpg'
+data-x-title: '80'
+data-y-title: '180'
+title: 'Tarjeta de Débito Bancamiga'
+data-x-subtitle: '80'
+data-y-subtitle: '240'
+subtitle: Concedido para para mejorar tu inversión,</br>rentabilidad,negocios,obtener capital de trabajo o la alternativa</br> que necesites.
+next: next
+
+#tabs para descripción de un producto
+tabs-left:
+  - id-tabs: description1
+    icon-tabs: fa fa-home fa-2x
+    name-tabs: Descripción
+    content-tabs:
+      - element-list: La Tarjeta de Débito Bancamiga te permite tener de forma ágil y segura, acceso a los servicios financieros que te ofrece Bancamiga, a través de sus diferentes canales. Disfruta de la comodidad de ir de compras pagando con la Tarjeta Débito y haz uso de tu efectivo en la amplia red de cajeros automáticos Maestro y Cirrus a nivel nacional. 
+  - id-tabs: caracteristica1
+    icon-tabs: fa fa-user fa-2x
+    name-tabs: Características
+    content-tabs:
+      - element-list: Entrega inmediata al abrir una Cuenta Corriente o de Ahorros Bancamiga.
+      - element-list: La Tarjeta de Débito Bancamiga te ofrece la posibilidad de acceder y administrar tus fondos a través de los cajeros automáticos y puntos de venta.
+      - element-list: Tu Tarjeta de Débito Bancamiga te permitirá realizar tus pagos sin necesidad de portar dinero en efectivo a través de los puntos de venta autorizados.
+      - element-list: Podrás realizar retiros por Cajeros Automáticos hasta Bs. 5.000,00 y compras por Puntos de Venta hasta Bs. 600.000,00
+      - element-list: Para reportar el  extravío, robo o alguna otra eventualidad con tu Tarjeta de Débito Bancamiga, tendrás la disponibilidad del canal telefónico 0501 TUBANCA  (8822622) (0212) 8220701 o (0212) 8220702,  donde podrás llamar a cualquier hora del día los 365 días del año.
+      - element-list: Bancamiga pone a tu disposición distintos canales electrónicos para que puedas realizar tus operaciones Bancarias y movilizar tus cuentas.
+      - element-list: El servicio Bancamiga en línea te permite realizar trasferencias entre cuentas del mismo titular, transferencias a otros bancos nacionales, pagos a terceros Bancamiga, transferencias a terceros en otras instituciones bancarias  y pagos de Tarjetas de Crédito de otros bancos nacionales.
+      - element-list: "Acceso al Centro de Atención Telefónica 0501TUBANCA desde la comodidad de tu hogar, con tan solo realizar una llamada telefónica podrás gestionar las siguientes transacciones:"
+        recaudos:
+          - requisito: Consulta de Saldos y Movimientos, Transferencias entre cuentas del mismo cliente, gestionar tus requerimientos en cuanto a soporte Bancamiga en Línea se refiere y obtener información de nuestros productos y servicios.
+      - element-list: "Ventajas:"
+        recaudos:
+          - requisito: Permite afiliar una Cuenta Corriente y una Cuenta de Ahorro, para mayor movilidad de tus fondos.
+          - requisito: Aceptación a nivel nacional. La Tarjeta se emite activa.
+          - requisito: La Tarjeta se emite activa.
+          - requisito: La tarjeta de Débito Bancamiga te permitirá realizar tus operaciones con la tranquilidad y confianza que brinda la tecnología chip, bien sea a través de cajeros automáticos y/o puntos de venta autorizados a nivel nacional.   
+  - id-tabs: messages8
+    icon-tabs: fa fa-envelope fa-2x
+    name-tabs: Requisitos
+    content-tabs:
+      - element-list: Para ver el contrato de Tarjeta de Débito y sus cláusulas haz      <a href= "http://www.bancamiga.com/admini/ckfinder/userfiles/files/CONTRATO%20DE%20TARJETA%20DE%20DEBITO%20web(1).pdf"> click</a>
+      - element-list: Poseer una cuenta corriente o de ahorro en Bancamiga.
+      - element-list: Ser mayor de 18 años de edad.
+      - element-list: Las cuentas deben ser movilizadas con firmas indistintas o unipersonales.
+      - element-list: Imprimir y llenar la planilla de Solicitud de Servicios            <a href= "http://www.bancamiga.com/admini/ckfinder/userfiles/files/Solicitud%20de%20Servicios.pdf"> click</a>
+  - id-tabs: Recaudos1
+    icon-tabs: fa fa-file fa-2x
+    name-tabs: Recomendaciones
+    content-tabs:
+      - element-list: Al recibir tu Tarjeta de Débito Bancamiga chequea que el sobre de seguridad no haya sido abierto.
+      - element-list: Te recomendamos que al recibir tu Tarjeta de Débito Bancamiga la firmes de inmediato con bolígrafo en el reverso con la finalidad de que puedas identificarla.
+      - element-list: Revisa regularmente los registros de tus estados de cuenta. En el caso de detectar cualquier irregularidad en tus movimientos, repórtalo de inmediato en cualquiera de las agencias Bancamiga.
+      - element-list: Memoriza la clave de su Tarjeta de Débito Bancamiga y evite anotarla en agendas, papeles o en la misma tarjeta.
+      - element-list: Recuerda cambiar periódicamente la clave de tu Tarjeta de Débito Bancamiga.
+      - element-list: No olvides que tu Tarjeta de Débito Bancamiga es intransferible
+        mesages-footer: Estos recaudos se rigen por lo establecido en la <a href="">Resolución 119.10 "Política conozca a su cliente”</a> emitida por la SUDEBAN. Para algunos casos será necesario consignar documentos adicionales.
+  - id-tabs: Enlaces1
+    icon-tabs: fa fa-cogs fa-2x
+    name-tabs: Enlaces de Interes
+    content-tabs:
+      - element-list: <a href="http://www.bancamiga.com"> Montos de Apertura</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Tarifas</a>
+      - element-list: <a href="http://www.bancamiga.com"> Enlace de Tasas </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace de Términos y condiciones</a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace para formatos, planillas y solicitudes </a>
+      - element-list: <a href="http://www.bancamiga.com">Enlace Preguntas Frecuentes</a>
+
+#Preguntas frecuentes
+title-seccion: Preguntas Frecuentes
+preguntas-frecuentes:
+  - name: ¿La Cuenta Corriente con Intereses posee interese?
+    id1-collapse: headingOne5
+    id2-collapse: collapseOne5
+    text-collapse: Desde luego que sí..!!.
+  - name: ¿Cómo se movilizan este tipo de cuentas?
+    id1-collapse: headingTwo5
+    id2-collapse: collapseTwo5
+    text-collapse: Es movilizada a través de una chequera y con nuestra Banca por Internet Bancamiga en Línea.
+  - name: ¿Dónde Puedo adquirir este producto?
+    id1-collapse: headingThree5
+    id2-collapse: collapseThree5
+    text-collapse: En su agencia Bancamiga mas cercana.
