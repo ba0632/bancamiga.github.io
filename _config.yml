@@ -71,10 +71,10 @@ collections:
     output: true
     permalink: /agencias/:name/
 
-url: "https://bancamiga.github.io" # the base hostname & protocol for your site
+#url: "https://bancamiga.github.io" # the base hostname & protocol for your site
 #baseurl: "/pagina-comercial-bancamiga"
-#url: ""
-#baseurl: ""
+url: ""
+baseurl: ""
 
 
 prose:
