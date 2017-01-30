@@ -18,7 +18,7 @@ slider:
     subtitle: Respaldada por Bancamiga y dirigida a todos los beneficiarios</br>de un Microcrédito.
     link: /noticias/
   - data-title: Cuenta de ahorros
-    data-image: /images/homesliders/10-home/foto-3.jpg
+   # data-image: /images/homesliders/10-home/foto-3.jpg
     data-x-title: 80
     data-y-title: 300
     title: Ahorra y gana intereses
